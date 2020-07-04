@@ -22,14 +22,9 @@
 html {
     height: 100vh;
     background-color: #CCCCCC; /*For no gradient support*/
-    background-image: linear-gradient(-185deg, #6897fd, #a9d0ff, #b8bafe);
-    background-repeat: no-repeat; 
-background-position: center;
-background-attachment: fixed;       
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;  
+    background-image: linear-gradient(110deg, #85B1FE, #A9D0FF, #B8BAFE);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width:100%;
     height:100%;
 }

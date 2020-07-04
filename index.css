@@ -1,0 +1,125 @@
+html {
+    height: 100vh;
+    background-color: #CCCCCC; /*For no gradient support*/
+    background-image: linear-gradient(-185deg, #6897fd, #a9d0ff, #b8bafe);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+html, body {
+    font: 16px "Century Gothic", "Helvetica", "Avenir",  sans-serif;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    color: black;
+    font-weight: bold;
+    padding: 1rem;
+    background-color: white;
+    background-color: #FFFFFFAA;
+    backdrop-filter: blur(1rem);
+    position: fixed;
+    z-index: 999;
+}
+
+
+main {
+    margin-top: 5rem;    
+}
+
+.container {
+    margin: 0 20%;
+}
+
+@media only screen and (max-width: 1125px) {
+    .container {
+        margin: 0 10%;
+    }
+}
+@media only screen and (max-width: 845px) {
+    .container {
+        margin: 0 2%;
+    }
+}
+
+.heading {
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: normal;
+}
+
+.h1 {
+    font-size: 1.6rem;
+}
+.h2 {
+    font-size: 1.3rem;
+}
+
+.blurBox {
+    background-color: white;
+    background-color: #FFFFFF77;
+    backdrop-filter: blur(1rem);
+    min-width: 70%;
+    padding: 2.5%;
+    margin-bottom: 2.5%;
+    border-radius: 40px;
+}
+
+a {
+    color: #EB4F64;
+    text-decoration: none;
+}
+a:visited {
+    color: #EB4F64;
+}
+a:hover {
+    text-decoration: underline;
+}
+hr {
+    border-top: 1px gray;
+    border-style: solid none none none;
+    margin-top: 1rem;
+}
+
+.pills {
+    font-size: .9rem;
+    border-radius: 1rem;
+    padding: 0 7px 1px 7px;
+    border: 2px solid;
+}
+.pill-purple {background-color: white; background-color: #FFFFFF75; color: rebeccapurple; border-color: rebeccapurple}
+.pill-green  {background-color: white; background-color: #FFFFFF75; color: green; border-color: green}
+.pill-orange {background-color: white; background-color: #FFFFFF75; color: darkorange; border-color: darkorange}
+.pill-yellow {background-color: white; background-color: #FFFFFF75; color: #323232; border-color: #FFDF00}
+.pill-blue   {background-color: white; background-color: #FFFFFF75; color: royalblue; border-color: royalblue}
+.pill-black  {background-color: white; background-color: #FFFFFF75; color: #323232; border-color: #323232}
+.pill-red  {background-color: white; background-color: #FFFFFF75; color: red; border-color: red}
+.pill-magenta  {background-color: white; background-color: #FFFFFF75; color: magenta; border-color: magenta}
+
+.centerText {
+    display: block;
+    text-align: center;
+}
+
+.list li {
+    list-style: circle;
+}
+
+#review {
+    font-style: italic;
+}
+#reviewAuthor {
+    float: right;
+}
+
+.indent {
+    list-style: none;
+}
+
+#personalProjectsBox {
+    height: 70vh;
+}

@@ -1,3 +1,24 @@
+@font-face {
+    font-family: "Century_Gothic";
+    src: url("fonts/GOTHIC.woff") format('woff');
+}
+@font-face {
+    font-family: "Century_Gothic";
+    src: url("fonts/GOTHICB.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Century_Gothic";
+    src: url("fonts/GOTHICBI.woff") format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Century_Gothic";
+    src: url("fonts/GOTHICI.woff") format('woff');
+    font-style: italic;
+}
+
 html {
     height: 100vh;
     background-color: #CCCCCC; /*For no gradient support*/
@@ -9,7 +30,8 @@ html {
 }
 
 html, body {
-    font: 16px "Century Gothic", "Helvetica", "Avenir",  sans-serif;
+    font-family: "Century_Gothic", "Avenir";
+    font-size: 16px;
     padding: 0;
     margin: 0;
     overflow-x: hidden;

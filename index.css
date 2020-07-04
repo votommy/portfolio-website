@@ -43,7 +43,7 @@ html, body {
 
 header {
     width: 100vw;
-    height: 2vh;
+    height: 3vh;
     padding: 1rem;
     background-color: white;
     background-color: #FFFFFFBB;
@@ -78,6 +78,10 @@ section .anchor{
 #hamburger span { /*The three lines*/
     display: block;
     position: absolute;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     height: 4px;
     width: 100%;
     background: black;
@@ -116,7 +120,7 @@ section .anchor{
     float: right;
     position: relative;
     display: block;
-    margin-right: 1.5rem;
+    margin-right: 1%;
 }
 .navList {
     display: none;
@@ -127,7 +131,7 @@ section .anchor{
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
     min-width: 200px;
-    margin-top: 2vh;
+    margin-top: 3vh;
     padding: 1rem 0.5rem;
     border-radius: 40px;
 }

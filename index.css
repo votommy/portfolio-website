@@ -21,33 +21,17 @@
 
 html {
     height: 100vh;
-/*
-    background-color: #CCCCCC;
-    background-image: linear-gradient(-185deg, #6897fd, #a9d0ff, #b8bafe);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    width:100%;
-    height:100%;
-*/
-}
-
-html:before {
-    content: "";
-    display: block;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -999;
     background-color: #CCCCCC; /*For no gradient support*/
     background-image: linear-gradient(-185deg, #6897fd, #a9d0ff, #b8bafe);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat; 
+background-position: center;
+background-attachment: fixed;       
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
+    width:100%;
+    height:100%;
 }
 
 html, body {
@@ -65,8 +49,8 @@ header {
     padding: 1rem;
     background-color: white;
     background-color: #FFFFFFBB;
-    backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
     position: fixed;
     z-index: 999;
 }
@@ -113,8 +97,8 @@ main {
 .blurBox {
     background-color: white;
     background-color: #FFFFFF90;
-    backdrop-filter: blur(1rem);
     -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
     min-width: 70%;
     padding: 2.5%;
     margin-bottom: 2.5%;

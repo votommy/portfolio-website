@@ -69,6 +69,11 @@ main {
         margin: 0 1%;
     }
 }
+@media (orientation: portrait) {
+    .container {
+        margin: 0 1%;
+    }
+}
 
 .heading {
     color: white;

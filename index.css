@@ -1,3 +1,7 @@
+:root {
+    --tommagenta: #ef6f7f;
+}
+
 @font-face {
     font-family: "Century_Gothic";
     src: url("fonts/GOTHIC.woff") format('woff');
@@ -39,8 +43,7 @@ html, body {
 
 header {
     width: 100vw;
-    color: black;
-    font-weight: bold;
+    height: 2vh;
     padding: 1rem;
     background-color: white;
     background-color: #FFFFFFBB;
@@ -49,7 +52,97 @@ header {
     position: fixed;
     z-index: 999;
 }
+header span {
+    font-weight: bold;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
 
+section{ /*offset anchors to compensate for fixed header*/
+    position: relative;
+}
+section .anchor{
+    position: absolute;
+    top: -4rem;
+}
+/*---------------------------------Hamburger Menu-----------------------------------------*/
+#hamburger {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    margin-right: 1.5rem;
+}
+#hamburger span { /*The three lines*/
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: black;
+    float: right;
+    transition: .5s;
+}
+/*Closed menu*/
+#hamburger #top {
+    top: 0px; /*top*/
+}
+#hamburger #middle1, #hamburger #middle2 {
+    top: 12px; /*middle*/
+}
+#hamburger #bottom {
+    top: 24px; /*bottom*/
+}
+/*Opened menu*/
+#hamburger.x span{
+    background: var(--tommagenta);
+}
+#hamburger.x #top {
+    top: 12px; /*move to middle*/
+    transform: rotate(135deg);
+}
+#hamburger.x #middle1 {
+    transform: rotate(45deg);
+}
+#hamburger.x #middle2 {
+    transform: rotate(-45deg);
+}
+#hamburger.x #bottom {
+    top: 12px; /*move to middle*/
+    transform: rotate(-135deg);
+}
+.dropdown {
+    float: right;
+    position: relative;
+    display: block;
+    margin-right: 1.5rem;
+}
+.navList {
+    display: none;
+    position: absolute;
+    right: 1rem;
+    background-color: white;
+    background-color: #FFFFFFBB;
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+    min-width: 200px;
+    margin-top: 2vh;
+    padding: 1rem 0.5rem;
+    border-radius: 40px;
+}
+.navList a {
+    color: black !important;
+    text-decoration: none;
+    font-size: 25px;
+    line-height: 3rem;
+    text-align: left;
+}
+.navList a:hover {
+    color: var(--tommagenta) !important;
+    text-decoration: none;
+}
+/*-------------------------------Hamburger Menu end---------------------------------------*/
 
 main {
     margin-top: 5rem;    
@@ -101,11 +194,11 @@ main {
 }
 
 a {
-    color: #EB4F64;
+    color: var(--tommagenta);
     text-decoration: none;
 }
 a:visited {
-    color: #EB4F64;
+    color: var(--tommagenta);
 }
 a:hover {
     text-decoration: underline;
@@ -152,5 +245,5 @@ hr {
 }
 
 #personalProjectsBox {
-    height: 70vh;
+    height: 80vh;
 }

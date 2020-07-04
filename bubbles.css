@@ -16,6 +16,7 @@
     display: block;
     border-radius: 50%;
     animation: square infinite;
+    -webkit-animation: square infinite;
     opacity: 0%;
 }
 
@@ -25,7 +26,9 @@
     left: 0%;
     top: 10%;
     animation-delay: 0s;
+    -webkit-animation-delay: 0s;
     animation-duration: 40s;
+    -webkit-animation-duration: 40s;
     background-color: #7797eb7c;
 }
 .bubbles li:nth-child(2) {
@@ -34,7 +37,9 @@
     left: 40%;
     top: 20%;
     animation-delay: 2s;
+    -webkit-animation-delay: 2s;
     animation-duration: 37s;
+    -webkit-animation-duration: 37s;
     background-color: #99e3f1c3;
     filter: blur(9px);
 }
@@ -44,7 +49,9 @@
     left: 60%;
     top: 30%;
     animation-delay: 4s;
+    -webkit-animation-delay: 4s;
     animation-duration: 33s;
+    -webkit-animation-duration: 33s;
     background-color: #aaa2f888;
     filter: blur(1px);
 }
@@ -54,7 +61,9 @@
     left: 80%;
     top: 40%;
     animation-delay: 1s;
+    -webkit-animation-delay: 1s;
     animation-duration: 32s;
+    -webkit-animation-duration: 32s;
     background-color: #99e3f1c3;
     filter: blur(7px);
 }
@@ -64,7 +73,9 @@
     left: 50%;
     top: 50%;
     animation-delay: 7s;
+    -webkit-animation-delay: 7s;
     animation-duration: 32s;
+    -webkit-animation-duration: 32s;
     background-color: #aaa2f888;
     filter: blur(2px);
 }
@@ -74,7 +85,10 @@
     left: 90%;
     top: 60%;
     animation-delay: 3s;
+    -webkit-animation-delay: 3s;
     animation-duration: 30s;
+    -webkit--webkit-animation-delay: 3s;
+    -webkit-animation-duration: 30s;
     background-color: #7797eb7c;
 }
 .bubbles li:nth-child(7) {
@@ -83,7 +97,9 @@
     left: 100%;
     top: 70%;
     animation-delay: 10s;
+    -webkit-animation-delay: 10s;
     animation-duration: 37s;
+    -webkit-animation-duration: 37s;
     background-color: #99e3f1c3;
     filter: blur(8px);
 }
@@ -93,7 +109,10 @@
     left: 10%;
     top: 80%;
     animation-delay: 11s;
+    -webkit-animation-delay: 11s;
     animation-duration: 33s;
+    -webkit--webkit-animation-delay: 11s;
+    -webkit-animation-duration: 33s;
     background-color: #aaa2f888;
     filter: blur(1px);
 }
@@ -103,7 +122,9 @@
     left: 30%;
     top: 90%;
     animation-delay: 6s;
+    -webkit-animation-delay: 6s;
     animation-duration: 32s;
+    -webkit-animation-duration: 32s;
     background-color: #99e3f1c3;
     filter: blur(7px);
 }
@@ -113,7 +134,9 @@
     left: 20%;
     top: 100%;
     animation-delay: 11s;
+    -webkit-animation-delay: 11s;
     animation-duration: 37s;
+    -webkit-animation-duration: 37s;
     background-color: #7797eb7c;
 }
 

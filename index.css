@@ -19,8 +19,9 @@ header {
     font-weight: bold;
     padding: 1rem;
     background-color: white;
-    background-color: #FFFFFFAA;
+    background-color: #FFFFFFCC;
     backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     position: fixed;
     z-index: 999;
 }
@@ -44,6 +45,11 @@ main {
         margin: 0 2%;
     }
 }
+@media only screen and (max-width: 580px) {
+    .container {
+        margin: 0 1%;
+    }
+}
 
 .heading {
     color: white;
@@ -61,8 +67,9 @@ main {
 
 .blurBox {
     background-color: white;
-    background-color: #FFFFFF77;
+    background-color: #FFFFFFAA;
     backdrop-filter: blur(1rem);
+    -webkit-backdrop-filter: blur(1rem);
     min-width: 70%;
     padding: 2.5%;
     margin-bottom: 2.5%;

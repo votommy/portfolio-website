@@ -59,12 +59,12 @@ main {
     margin: 0 20%;
 }
 
-@media only screen and (max-width: 1125px) {
+@media (max-width: 1300px) {
     .container {
         margin: 0 10%;
     }
 }
-@media only screen and (max-width: 845px) {
+@media (max-width: 800px) {
     .container {
         margin: 0 1%;
     }

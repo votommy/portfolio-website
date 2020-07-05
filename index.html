@@ -9,25 +9,25 @@
     </head>
     <body>
         
-        <header>
-            <span>TOMMY VO</span>
-            <nav id="navbar">
-                <div class="dropdown">
-                    <div id="hamburger">
-                      <span id="top"></span>
-                      <span id="middle1"></span>
-                      <span id="middle2"></span>
-                      <span id="bottom"></span>
-                    </div>
-                    <div class="navList">
-                        <a class="navAboutMe" href="#aboutMe">About Me</a><br>
-                        <a class="navExperience" href="#workXP">Experience</a><br>
-                        <a class="navAwards" href="#awards">Awards</a><br>
-                        <a class="navProjects" href="#personalProjects">Projects</a><br>
-                    </div>
+        <header class="blurNav" id="navbar">
+            <span id="title">TOMMY VO</span>
+            <div class="dropdown">
+                <div id="hamburger">
+                  <span id="top"></span>
+                  <span id="middle1"></span>
+                  <span id="middle2"></span>
+                  <span id="bottom"></span>
                 </div>
-            </nav>
+            </div>
         </header>
+        
+        <div class="navList blurNav">
+            <a class="navAboutMe" href="#aboutMe">About Me</a><br>
+            <a class="navExperience" href="#workXP">Experience</a><br>
+            <a class="navAwards" href="#awards">Awards</a><br>
+            <a class="navProjects" href="#personalProjects">Projects</a><br>
+        </div>
+        
         <main>
             <ul class="bubbles">
                 <li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li><li></li>
@@ -145,7 +145,14 @@
                     <section><span class="anchor" id="personalProjects"></span>
                         <div class="blurBox" id="personalProjectsBox">
                             <span class="h1">Personal Projects:</span>
-                            
+                            <div id="cardListView">
+                                <img src="image/screenshots/profile.jpg" alt="Screenshot of the profile page of Peep's mobile app." />
+                                <img src="image/screenshots/eventPage.jpg" alt="Screenshot of the events page of Peep's mobile app." />
+                                <img src="image/screenshots/map.jpg" alt="Screenshot of the map page of Peep's mobile app." />
+                                <img src="image/screenshots/map_onclick.jpg" alt="Screenshot of the map event of Peep's mobile app." />
+                                <img src="image/screenshots/inChat.jpg" alt="Screenshot of the messaging box of Peep's mobile app." />
+                                <img src="image/screenshots/chat.jpg" alt="Screenshot of the contacts page of Peep's mobile app." />
+                            </div>
                         </div>
                     </section>
                 </div>

@@ -45,14 +45,14 @@ header {
     width: 100vw;
     height: 3vh;
     padding: 1rem;
+    position: fixed;
+    z-index: 999;
     background-color: white;
     background-color: #FFFFFFBB;
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
-    position: fixed;
-    z-index: 999;
 }
-header span {
+header #title {
     font-weight: bold;
     font-size: 1.5rem;
     position: absolute;
@@ -66,7 +66,7 @@ section{ /*offset anchors to compensate for fixed header*/
 }
 section .anchor{
     position: absolute;
-    top: -4rem;
+    top: -6vh;
 }
 /*---------------------------------Hamburger Menu-----------------------------------------*/
 #hamburger {
@@ -123,17 +123,19 @@ section .anchor{
     margin-right: 1%;
 }
 .navList {
+    z-index: 999;
     display: none;
-    position: absolute;
+    position: fixed;
     right: 1rem;
     background-color: white;
-    background-color: #FFFFFFBB;
+    background-color: #FFFFFF90;
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
     min-width: 200px;
-    margin-top: 3vh;
+    top: 6vh;
+    right: 0;
     padding: 1rem 0.5rem;
-    border-radius: 40px;
+/*    border-radius: 0 0 40px 40px;*/
 }
 .navList a {
     color: black !important;
@@ -250,4 +252,17 @@ hr {
 
 #personalProjectsBox {
     height: 80vh;
+}
+
+#cardListView {
+    overflow-x: auto;
+    overflow-y: hidden; /*Prevent verticle scrolling*/
+    white-space: nowrap;
+}
+#cardListView > img {
+    display: inline-block;
+    height: 60vh;
+    vertical-align: top;
+    margin: 0 1rem 2rem 1rem;
+    white-space: normal;
 }

@@ -8,24 +8,19 @@
         <link rel="stylesheet" href="bubbles.css">
     </head>
     <body>
-        
-        <header class="blurNav" id="navbar">
-            <span id="title">TOMMY VO</span>
+        <div class="navbar">
+            <a id="title">TOMMY VO</a>
             <div class="dropdown">
-                <div id="hamburger">
-                  <span id="top"></span>
-                  <span id="middle1"></span>
-                  <span id="middle2"></span>
-                  <span id="bottom"></span>
+                <button class="dropbtn">
+                    <span id="menubtn">&#10006;</span>
+                </button>
+                <div class="dropdown-content">
+                    <a class="navAboutMe" href="#aboutMe">About Me</a><br>
+                    <a class="navExperience" href="#workXP">Experience</a><br>
+                    <a class="navAwards" href="#awards">Awards</a><br>
+                    <a class="navProjects" href="#personalProjects">Projects</a>
                 </div>
-            </div>
-        </header>
-        
-        <div class="navList blurNav">
-            <a class="navAboutMe" href="#aboutMe">About Me</a><br>
-            <a class="navExperience" href="#workXP">Experience</a><br>
-            <a class="navAwards" href="#awards">Awards</a><br>
-            <a class="navProjects" href="#personalProjects">Projects</a><br>
+            </div> 
         </div>
         
         <main>
@@ -39,10 +34,11 @@
                         <div class="blurBox">
                             <span class="h1">About Me:</span>
                             <p>
-                                Hey! I'm Tommy, a software developer based in Missouri.<br><br>
+                                Hello! I'm Tommy, a software developer based in Missouri.<br><br>
                                 I have a passion for software design, visual arts, and all things tech.<br><br>
-                                I recently graduated from <a href="https://nwmissouri.edu" target="_blank" rel="noopener noreferrer">Northwest Missouri State University</a> with my bachelor's in Computer Science.<br>
-                                At my most recent job as a fullstack Software Developer, I made web applications for my school. I worked on many helpful tools that are being used by my university on a daily basis.<br>
+                                I graduated in 2020 from <a href="https://nwmissouri.edu" target="_blank" rel="noopener noreferrer">Northwest Missouri State University</a> with my bachelor's in Computer Science.<br>
+                                My very first job was a fullstack Software Developer in which I made web applications for my school. I worked on many helpful tools that are currently being used by my university on a daily basis.<br>
+                                Currently, I'm a Software Developer at <a href="https://www.myyellow.com" target="_blank" rel="noopener noreferrer">Yellow Corp.</a> I work on the Modernization Team to rewrite the entire mainframe from an old, rare language to a more modern one.
                             </p>
                             <hr>
                             <p>
@@ -50,10 +46,11 @@
                             </p>
                             <span class="pills pill-purple">ASP.NET</span>
                             <span class="pills pill-green">C#</span>
+                            <span class="pills pill-orange">Java</span>
                             <span class="pills pill-orange">HTML</span>
                             <span class="pills pill-purple">CSS</span>
                             <span class="pills pill-yellow">Javascript</span>
-                            <span class="pills pill-blue">MySQL</span>
+                            <span class="pills pill-blue">SQL</span>
                             <span class="pills pill-orange">Swift</span>
                             <span class="pills pill-black">GitHub</span><br><br>
                             <a class="centerText" style="text-decoration: underline;" href="TommyVo_Resume.pdf#zoom=20" target="_blank" rel="noopener noreferrer">My Resume</a>
@@ -63,9 +60,22 @@
                     <section><span class="anchor" id="workXP"></span>
                         <div class="blurBox">
                             <span class="h1">Work Experience:</span><br><br>
+                            <span class="h2">Developer I <a href="https://www.myyellow.com" target="_blank" rel="noopener noreferrer">@ Yellow</a></span><br>
+                            <span>September 2020 - Present</span><br><br>
+                            <span class="h2">Accomplishments:</span><br>
+                            <ul class="list">
+                                <li>Worked on the Modernization Team to rewrite the entire mainframe from an old, rare language called Model 204 to the more known Java.</li>
+                                <li>Improved runtime efficiency of many programs to cut down time and cost.</li>
+                            </ul>
+                            <span class="pills pill-orange">Java</span>
+                            <span class="pills pill-blue">M204</span>
+                            <span class="pills pill-green">Spring Batch</span>
+                            <span class="pills pill-blue">SQL</span>
+                            <span class="pills pill-orange">GitLab</span>
+                            <hr><br>
                             <span class="h2">Software Developer <a href="https://nwmissouri.edu/academics/ltc/contact.htm" target="_blank" rel="noopener noreferrer">@ Northwest Missouri State University</a></span><br>
                             <span>August 2019 - May 2020</span><br><br>
-                            <span class="h2">Projects:</span><br>
+                            <span class="h2">Accomplishments:</span><br>
                             <ul class="list">
                                 <li>Created an application for Career Pathing ATS, an attendance tracking system (ATS) for the Human Resources office to automate the attendance tracking for campus events and meetings. Created the database, front-end website, all functionalities from within the web app, and performed testing.</li>
                                 <li>Debugged and maintained Workshop Manager, a web application for schduling and tracking staff meetings. Continuation of my work from the internship prior.</li>
@@ -83,7 +93,7 @@
                             <hr><br>
                             <span class="h2">Software Developer Intern <a href="https://nwmissouri.edu/academics/ltc/contact.htm" target="_blank" rel="noopener noreferrer">@ Northwest Missouri State University</a></span><br>
                             <span>May 2019 - August 2019</span><br><br>
-                            <span class="h2">Projects:</span><br>
+                            <span class="h2">Accomplishments:</span><br>
                             <ul class="list">
                                 <li>Revamped the entire UI for Workshop Manager, a web application for schduling and tracking staff meetings. Made significant front-end changes to increase efficiency and ease of use.</li>
                                 <li>Debugged and maintained Web Time Clock, a tool used by the employees at the Learning &amp; Teaching Center to clock in/out of work everyday. Automated the attendance report at the end of each pay period.</li>
@@ -98,6 +108,20 @@
                             <span class="pills pill-orange">GitLab</span><br><br>
                             <span id="review">"Tommy is a great intern under pressure and even spurs on his co-workers to obtain and set new goals. He always exhibits a positive attitude especially when struggling with the new coding knowledge. Tommy is a self-motivated and determined member of his team. He is an active listener and is good at time management."</span>
                             <br><span id="reviewAuthor">- Gary Zhao (Supervisor), Computer Software/Programming Specialist</span><br>
+                        </div>
+                    </section>
+                    
+                    <section><span class="anchor" id="personalProjects"></span>
+                        <div class="blurBox" id="personalProjectsBox">
+                            <span class="h1">Personal Projects:</span>
+                            <div id="cardListView">
+                                <img src="image/screenshots/profile.jpg" alt="Screenshot of the profile page of Peep's mobile app." />
+                                <img src="image/screenshots/eventPage.jpg" alt="Screenshot of the events page of Peep's mobile app." />
+                                <img src="image/screenshots/map.jpg" alt="Screenshot of the map page of Peep's mobile app." />
+                                <img src="image/screenshots/map_onclick.jpg" alt="Screenshot of the map event of Peep's mobile app." />
+                                <img src="image/screenshots/inChat.jpg" alt="Screenshot of the messaging box of Peep's mobile app." />
+                                <img src="image/screenshots/chat.jpg" alt="Screenshot of the contacts page of Peep's mobile app." />
+                            </div>
                         </div>
                     </section>
                     
@@ -139,20 +163,6 @@
                             <span class="pills pill-blue">Python</span>
                             <span class="pills pill-orange">Java</span>
                             <span class="pills pill-green">Android</span>
-                        </div>
-                    </section>
-                    
-                    <section><span class="anchor" id="personalProjects"></span>
-                        <div class="blurBox" id="personalProjectsBox">
-                            <span class="h1">Personal Projects:</span>
-                            <div id="cardListView">
-                                <img src="image/screenshots/profile.jpg" alt="Screenshot of the profile page of Peep's mobile app." />
-                                <img src="image/screenshots/eventPage.jpg" alt="Screenshot of the events page of Peep's mobile app." />
-                                <img src="image/screenshots/map.jpg" alt="Screenshot of the map page of Peep's mobile app." />
-                                <img src="image/screenshots/map_onclick.jpg" alt="Screenshot of the map event of Peep's mobile app." />
-                                <img src="image/screenshots/inChat.jpg" alt="Screenshot of the messaging box of Peep's mobile app." />
-                                <img src="image/screenshots/chat.jpg" alt="Screenshot of the contacts page of Peep's mobile app." />
-                            </div>
                         </div>
                     </section>
                 </div>

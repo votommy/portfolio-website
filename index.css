@@ -249,3 +249,11 @@ hr {
     margin: 0 1rem 2rem 1rem;
     white-space: normal;
 }
+
+footer {
+    font-size: 1rem;
+    padding: 2rem 0;
+    border-top: 1px dashed white;
+    color: white;
+    text-align: center;
+}

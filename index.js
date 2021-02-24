@@ -21,7 +21,7 @@ $(document).ready(function() { //jQuery
     });
     $(".navProjects").click(function() { //scrolls to Awards on click. Animate smooth scroll
         $('html, body').animate({
-            scrollTop: $("#personalProjects").offset().top
+            scrollTop: $("#projects").offset().top
             }, 900);
     });
     $(".navContact").click(function() { //scrolls to Contact on click. Animate smooth scroll

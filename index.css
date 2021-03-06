@@ -183,11 +183,22 @@ main {
 }
 
 .projectCard {
-    background-color: white;
     min-width: 70%;
     padding: 2.5%;
     margin-bottom: 2.5%;
     border-radius: 20px;
+    max-height: 60vh;
+    overflow: auto;
+    
+    background: 
+        linear-gradient(white 33%, transparent),
+        linear-gradient(transparent, white 66%) 0 100%,
+        linear-gradient(rgba(200,200,200, 0.5), transparent),
+        linear-gradient(transparent, rgba(200,200,200, 0.5)) 0 100%;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: local, local, scroll, scroll;
+    background-size: 100% 111px, 100% 111px, 100% 37px, 100% 37px;
 }
 
 a {

@@ -221,11 +221,6 @@ hr {
 .pill-red     {background-color: white; background-color: #FFFFFF75; color: red; border-color: red}
 .pill-magenta {background-color: white; background-color: #FFFFFF75; color: magenta; border-color: magenta}
 
-.centerText {
-    display: block;
-    text-align: center;
-}
-
 .aboutMeLinks {
     display: flex;
     justify-content: center;
@@ -236,6 +231,25 @@ hr {
 
 .list li {
     list-style: circle;
+}
+
+.revealBtn {
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    transform: rotate(45deg);
+    border: solid 2px;
+    border-color: transparent gray gray transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.revealBtn:hover {
+    cursor: pointer;
+}
+
+#yellowReveal, #nw2Reveal, #nw1Reveal {
+    display: none;
 }
 
 #review {

@@ -25,7 +25,7 @@
 
 html {
     height: 100vh;
-    background-color: #CCCCCC; /*For no gradient support*/
+    background-color: #A9D0FF; /*For no gradient support*/
     background-image: linear-gradient(110deg, #85B1FE, #A9D0FF, #B8BAFE);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -39,6 +39,33 @@ html, body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+}
+
+#landingPage {
+    position: fixed;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;
+    font-size: 3rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 900ms;
+}
+#landingPage p {
+    margin: 0 2rem;
+    color: black;
+}
+#landingPageBtn {
+    transform: scale(300%) rotate(45deg);
+    margin-top: 5rem;
+    border: solid 1px;
+    border-color: transparent black black transparent;
 }
 
 section{ /*offset anchors to compensate for fixed header*/
@@ -157,13 +184,6 @@ main {
     }
 }
 
-.heading {
-    color: white;
-    display: block;
-    text-align: center;
-    font-weight: normal;
-}
-
 .h1 {
     font-size: 1.6rem;
 }
@@ -227,8 +247,15 @@ hr {
     display: flex;
     justify-content: center;
 }
-.aboutMeLinks a {
-    padding: 0 2rem;
+.aboutMeLinks div {
+    padding: .7rem;
+    margin: 0 2rem;
+    border-radius: 2rem;
+    border: 2px solid var(--tommagenta);
+    background-color: white; background-color: #FFFFFF75;
+}
+.aboutMeLinks div:hover {
+    cursor: pointer;
 }
 
 .list li {
@@ -263,6 +290,18 @@ hr {
 
 .indent {
     list-style: none;
+}
+
+#linkBox {
+    display: flex;
+    justify-content: space-around;
+}
+#linkBox img {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    width: 4rem;
+    height: auto;
 }
 
 footer {

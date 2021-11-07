@@ -4,11 +4,18 @@
         <meta charset="utf-8">
         <title>Tommy Vo | Software Developer</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <link rel="shortcut icon" href="Tommy.ico" type="image/x-icon"> <!--favicon-->
+        <link rel="icon" href="logo.svg" type="image/svg"> <!--favicon-->
         <link rel="stylesheet" href="index.css">
         <link rel="stylesheet" href="bubbles.css">
     </head>
     <body>
+        <header id="landingPage" onclick="landingPageVanish()">
+            <p>
+                Design is about more than just how something looks;<br>
+                it's about how it makes us feel.
+            </p>
+            <div class="revealBtn" id="landingPageBtn"></div>
+        </header>
         <div class="navbar">
             <a id="title">TOMMY VO</a>
             <div class="dropdown">
@@ -20,6 +27,7 @@
                     <a class="navExperience" href="#workXP">Experience</a><br>
                     <a class="navProjects" href="#projects">Projects</a><br>
                     <a class="navAwards" href="#awards">Awards</a><br>
+                    <a class="navContact" href="#contact">Contact Me</a><br>
                 </div>
             </div> 
         </div>
@@ -36,7 +44,7 @@
                             <span class="h1">About Me:</span>
                             <p>
                                 Hello! I'm Tommy, a software developer based in Missouri.<br><br>
-                                I have a passion for software design, visual arts, and all things tech.<br><br>
+                                I have a passion for UX design, visual arts, and all things tech.<br><br>
                                 I graduated in 2020 from <a href="https://nwmissouri.edu" target="_blank" rel="noopener noreferrer">Northwest Missouri State University</a> with my bachelor's in Computer Science.<br>
                                 I worked as a fullstack software developer as my first job where I made web applications for my school. I then worked as a mainframe software developer shortly after that. However, my main area of interest has always been frontend development with emphasis on UX design.
                             </p>
@@ -44,18 +52,20 @@
                             <p>
                                 Here are just some of the languages &amp; tools I used recently:
                             </p>
-                            <span class="pills pill-purple">ASP.NET</span>
-                            <span class="pills pill-green">C#</span>
-                            <span class="pills pill-orange">Java</span>
                             <span class="pills pill-red">HTML</span>
                             <span class="pills pill-purple">CSS</span>
                             <span class="pills pill-yellow">Javascript</span>
-                            <span class="pills pill-blue">SQL</span>
+                            <span class="pills pill-purple">ASP.NET</span>
+                            <span class="pills pill-green">C#</span>
                             <span class="pills pill-orange">Swift</span>
-                            <span class="pills pill-black">GitHub</span><br><br>
+                            <span class="pills pill-orange">Java</span>
+                            <span class="pills pill-blue">SQL</span>
+                            <span class="pills pill-black">GitHub</span>
+                            <br><br><br>
                             <span class="aboutMeLinks">
-                                <a style="text-decoration: underline;" href="TommyVo_Resume.pdf#zoom=20" target="_blank" rel="noopener noreferrer">My Resume</a>
-                                <a style="text-decoration: underline;" href="https://github.com/votommy?tab=repositories" target="_blank" rel="noopener noreferrer">GitHub</a>
+                                <a href="TommyVo_Resume.pdf#zoom=20" target="_blank" rel="noopener noreferrer">
+                                    <div>My Resume</div>
+                                </a>
                             </span>
                         </div>
                     </section>
@@ -254,6 +264,18 @@
                             <span class="pills pill-blue">Python</span>
                             <span class="pills pill-orange">Java</span>
                             <span class="pills pill-green">Android</span>
+                        </div>
+                    </section>
+                    
+                    <section><span class="anchor" id="contact"></span>
+                        <div class="blurBox">
+                            <span class="h1">Links:</span><br><br>
+                            <div id="linkBox">
+                                <a href="mailto:votommy@outlook.com"><img alt="email icon" src="logos/email.png"></a>
+                                <a href="https://linkedin.com/in/votommy" target="_blank" rel="noopener noreferrer"><img alt="linkedin icon" src="logos/linkedin.png"></a>
+                                <a href="https://github.com/votommy?tab=repositories" target="_blank" rel="noopener noreferrer"><img alt="github icon" src="logos/github.png"></a>
+                                
+                            </div>
                         </div>
                     </section>
                     

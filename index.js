@@ -1,8 +1,14 @@
 $(document).ready(function() { //jQuery
+    disableScroll();
+    $(window).one('scroll', function() {
+            landingPageVanish();
+    });
+    
     $(".navAboutMe").click(function() { //scrolls to About Me on click. Animate smooth scroll
         $('html, body').animate({
             scrollTop: $("#aboutMe").offset().top
             }, 900);
+        history.pushState("", document.title, window.location.pathname);
     });
     $(".navExperience").click(function() { //scrolls to Work Experience on click. Animate smooth scroll
         $('html, body').animate({
@@ -19,11 +25,42 @@ $(document).ready(function() { //jQuery
             scrollTop: $("#awards").offset().top
             }, 900);
     });
+    $(".navContact").click(function() { //scrolls to Awards on click. Animate smooth scroll
+        $('html, body').animate({
+            scrollTop: $("#contact").offset().top
+            }, 900);
+    });
     
     $(".dropdown").click(function() {
         $(".navList").toggle(); //Toggle visibility of dropdown menu in mobile
     });
+    
+    $(window).on('hashchange', function(e){
+        window.history.pushState("", document.title, window.location.pathname);
+    });
 }); //End jQuery
+
+function disableScroll() {
+    window.onscroll = () => { window.scroll(0, 0); };
+}
+function enableScroll() {
+    window.onscroll = function() {};
+}
+
+function landingPageVanish() {
+    const landingPage = document.querySelector("#landingPage");
+    landingPage.style.transform = "translate(0, -100%)";
+        
+    //wait for landing page to leave the screen. Time should match CSS transition-duration
+    setTimeout(function() {
+        landingPage.style.display = "none"; //make it disappear
+        enableScroll();
+    }, 900);
+
+    //start the page at the top, in case the user scrolls before clicking the landing page
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
 function yellowReveal() {
     const block = document.querySelector("#yellowReveal");

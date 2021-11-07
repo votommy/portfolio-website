@@ -35,7 +35,6 @@ html {
 
 html, body {
     font-family: "Century_Gothic", "Avenir";
-    font-size: 16px;
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -176,15 +175,24 @@ main {
     .container {
         margin: 0 10%;
     }
+    html, body {
+        font-size: 16px;
+    }
 }
 @media (max-width: 800px) {
     .container {
         margin: 0 1%;
     }
+    html, body {
+        font-size: 18px;
+    }
 }
 @media (orientation: portrait) {
     .container {
         margin: 0 1%;
+    }
+    html, body {
+        font-size: 20px;
     }
     
     .dropdown {

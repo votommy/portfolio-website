@@ -61,6 +61,10 @@ html, body {
     margin: 0 2rem;
     color: black;
 }
+#statementSignature {
+    align-self: flex-end;
+    padding: 0 2rem;
+}
 #landingPageBtn {
     transform: scale(300%) rotate(45deg);
     margin-top: 5rem;
@@ -181,6 +185,10 @@ main {
 @media (orientation: portrait) {
     .container {
         margin: 0 1%;
+    }
+    
+    .dropdown {
+        display: none;
     }
 }
 

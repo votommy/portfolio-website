@@ -6,29 +6,32 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="icon" href="logo.svg" type="image/svg"> <!--favicon-->
         <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="darkMode.css">
+        <link rel="stylesheet" href="highContrastMode.css">
         <link rel="stylesheet" href="bubbles.css">
     </head>
-    <body>
+    <body onload="checkTheme()">
+<!--
         <header id="landingPage" onclick="landingPageVanish()">
             <p>
                 Design is about more than just how something looks;<br>
                 it's about how it makes us feel.
             </p><br>
             <p id="statementSignature">-Tommy Vo</p>
-            <div class="revealBtn" id="landingPageBtn"></div>
+            <button tabindex="0" class="revealBtn" id="landingPageBtn" onclick="landingPageVanish()"></button>
         </header>
+-->
         <div class="navbar">
             <a id="title">TOMMY VO</a>
             <div class="dropdown">
-                <button class="dropbtn">
-                    <span id="menubtn">&#10006;</span>
-                </button>
+                <button tabindex="0" class="dropbtn" id="menubtn">&#10006;</button>
                 <div class="dropdown-content">
                     <a class="navAboutMe" href="#aboutMe">About Me</a><br>
                     <a class="navExperience" href="#workXP">Experience</a><br>
                     <a class="navProjects" href="#projects">Projects</a><br>
                     <a class="navAwards" href="#awards">Awards</a><br>
                     <a class="navContact" href="#contact">Contact Me</a><br>
+                    <a class="navSettings" href="#settings">Settings</a><br>
                 </div>
             </div> 
         </div>
@@ -40,6 +43,17 @@
             
             <article>
                 <div class="container">
+                    <section>
+                        <div id="settingsBackdrop" class="exitSettingsBtn"></div> <!--Click off the settings menu to exit-->
+                        <div class="blurBox" id="settings">
+                            <span class="h1">Accessibility Settings:</span><br><br>
+                            <button class="exitSettingsBtn">&#10006;</button>
+                            <input type="button" value="Light Mode" onclick="lightModeOn()"><br>
+                            <input type="button" value="Dark Mode" onclick="darkModeOn()"><br>
+                            <input type="button" value="High Contrast Mode" onclick="highContrastModeOn()">
+                        </div>
+                    </section>
+                    
                     <section><span class="anchor" id="aboutMe"></span>
                         <div class="blurBox">
                             <span class="h1">About Me:</span>
@@ -73,7 +87,7 @@
                     
                     <section><span class="anchor" id="workXP"></span>
                         <div class="blurBox">
-                            <div onclick="yellowReveal()">
+                            <div onclick="yellowReveal()" id="yellowBox">
                                 <span class="h1">Work Experience:</span><br><br>
                                 <span class="h2">Developer I <a href="https://www.myyellow.com" target="_blank" rel="noopener noreferrer">@ Yellow</a></span><br>
                                 <span>August 2020 - April 2021</span><br>
@@ -91,10 +105,10 @@
                                     <span class="pills pill-orange">GitLab</span>
                                     <br><br>
                                 </span>
-                                <div class="revealBtn" id="yellowRevealBtn"></div>
+                                <button class="revealBtn" id="yellowRevealBtn">&plus;</button>
                             </div>
                             <hr><br>
-                            <div onclick="nw2Reveal()">
+                            <div onclick="nw2Reveal()" id="nw2Box">
                                 <span class="h2">Software Developer <a href="https://nwmissouri.edu/academics/ltc/contact.htm" target="_blank" rel="noopener noreferrer">@ Northwest Missouri State University</a></span><br>
                                 <span>August 2019 - May 2020</span><br>
                                 <span id="nw2Reveal">
@@ -116,10 +130,10 @@
                                     <span class="pills pill-orange">GitLab</span>
                                     <br><br>
                                 </span>
-                                <div class="revealBtn" id="nw2RevealBtn"></div>
+                                <button class="revealBtn" id="nw2RevealBtn">&plus;</button>
                             </div>
                             <hr><br>
-                            <div onclick="nw1Reveal()">
+                            <div onclick="nw1Reveal()" id="nw1Box">
                                 <span class="h2">Software Developer Intern <a href="https://nwmissouri.edu/academics/ltc/contact.htm" target="_blank" rel="noopener noreferrer">@ Northwest Missouri State University</a></span><br>
                                 <span>May 2019 - August 2019</span><br>
                                 <span id="nw1Reveal">
@@ -141,7 +155,7 @@
                                     <br><span id="reviewAuthor">- Gary Zhao (Supervisor), Computer Software/Programming Specialist</span>
                                     <br><br>
                                 </span>
-                                <div class="revealBtn" id="nw1RevealBtn"></div>
+                                <button class="revealBtn" id="nw1RevealBtn">&plus;</button>
                             </div>
                         </div>
                     </section>
@@ -170,6 +184,26 @@
                                 <hr>
                                 <br>
                                 
+                                <span class="h2"><a href="https://github.com/votommy/tommy-v2" target="_blank" rel="noopener noreferrer">Portfolio Website v2</a></span>
+                                <br>
+                                <ul class="indent">
+                                    <li>
+                                        My most recent portfolio website (this current webpage). This site's goal is to showcase my frontend abilities while also displaying my professional portfolio and resume.<br>
+                                        Complete with visual accessibility settings &amp; full keyboard navigation.<br>
+                                        My challenge for this project was to incorporate all my UX design skills and make the website as accessible as possible.
+                                    </li>
+                                </ul>
+                                <ul class=list>
+                                    <li><a href="https://github.com/votommy/tommy-v2" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Repository</a></li>
+                                </ul>
+                                <span class="pills pill-red">HTML</span>
+                                <span class="pills pill-purple">CSS</span>
+                                <span class="pills pill-yellow">Javascript</span>
+                                <span class="pills pill-black">Github</span>
+                                
+                                <hr>
+                                <br>
+                                
                                 <span class="h2"><a href="https://github.com/votommy/tommy" target="_blank" rel="noopener noreferrer">Portfolio Website v1</a></span>
                                 <br>
                                 <ul class="indent">
@@ -187,27 +221,6 @@
                                 <span class="pills pill-blue">jQuery</span>
                                 <span class="pills pill-yellow">Javascript</span>
                                 <span class="pills pill-purple">Bootstrap</span>
-                                <span class="pills pill-black">Github</span>
-                                
-                                <hr>
-                                <br>
-                                
-                                <span class="h2"><a href="https://github.com/votommy/tommy-v2" target="_blank" rel="noopener noreferrer">Portfolio Website v2</a></span>
-                                <br>
-                                <ul class="indent">
-                                    <li>
-                                        My most recent portfolio website (this current webpage). This site's goal is to showcase my frontend abilities while also displaying my professional portfolio and resume.<br>
-                                        Most of the visual components are not meant to be practical, but rather, to be a showcase of the possibilities of HTML, CSS, &amp; Javascript.<br>
-                                        My challenge for this site was to restrict myself to only pure HTML &amp; Javascript with no help from frameworks such as Bootstrap.
-
-                                    </li>
-                                </ul>
-                                <ul class=list>
-                                    <li><a href="https://github.com/votommy/tommy-v2" target="_blank" rel="noopener noreferrer" style="text-decoration: underline;">Repository</a></li>
-                                </ul>
-                                <span class="pills pill-red">HTML</span>
-                                <span class="pills pill-purple">CSS</span>
-                                <span class="pills pill-yellow">Javascript</span>
                                 <span class="pills pill-black">Github</span>
                                 
                                 <hr>
@@ -275,7 +288,6 @@
                                 <a href="mailto:votommy@outlook.com"><img alt="email icon" src="logos/email.png"></a>
                                 <a href="https://linkedin.com/in/votommy" target="_blank" rel="noopener noreferrer"><img alt="linkedin icon" src="logos/linkedin.png"></a>
                                 <a href="https://github.com/votommy?tab=repositories" target="_blank" rel="noopener noreferrer"><img alt="github icon" src="logos/github.png"></a>
-                                
                             </div>
                         </div>
                     </section>

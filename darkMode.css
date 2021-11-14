@@ -1,0 +1,130 @@
+:root {
+    --tommagenta: #ef6f7f;
+}
+
+html {
+    background-color: #717171; /*For no gradient support*/
+    background-image: linear-gradient(110deg, #8D8D8D, #717171, #5C5C5C);
+    color: white;
+}
+
+/*----------------------------------------navbar----------------------------------------*/
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+    background-color: #00000090;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title, #menubtn {
+    color: white;
+}
+
+.dropdown:hover #menubtn {
+    color: var(--tommagenta);
+}
+.dropdown .dropbtn {
+    color: white;
+}
+
+.navbar a:hover, .dropdown:hover{
+    color: var(--tommagenta);
+    background-color: #00000090;
+}
+
+.dropdown-content {
+    background-color: white;
+    background-color: #00000090;
+}
+
+.dropdown-content a {
+    color: white !important;
+}
+.dropdown-content a:hover {
+    color: var(--tommagenta) !important;
+}
+
+/*-------------------------------navbar end---------------------------------------*/
+
+.blurBox {
+    background-color: black;
+    background-color: #00000090;
+}
+
+.projectCard {
+    background-color: #00000090;
+}
+
+a {
+    color: var(--tommagenta);
+}
+a:visited {
+    color: var(--tommagenta);
+}
+
+hr {
+    border-top: 1px gray;
+    border-style: solid none none none;
+}
+
+.pill-purple  {background-color: white; background-color: rebeccapurple; color: white; border-color: rebeccapurple}
+.pill-green   {background-color: white; background-color: green; color: white; border-color: green}
+.pill-orange  {background-color: white; background-color: darkorange; color: black; border-color: darkorange}
+.pill-yellow  {background-color: white; background-color: #FFDF00; color: black; border-color: #FFDF00}
+.pill-blue    {background-color: white; background-color: royalblue; color: white; border-color: royalblue}
+.pill-black   {background-color: white; background-color: black; color: white; border-color: black}
+.pill-red     {background-color: white; background-color: red; color: black; border-color: red}
+.pill-magenta {background-color: white; background-color: magenta; color: black; border-color: magenta}
+
+.aboutMeLinks div {
+    border: 2px solid var(--tommagenta);
+    color: white;
+    background-color: var(--tommagenta);
+}
+.aboutMeLinks a:hover {
+    text-decoration-color: white;
+}
+
+#settings input {
+    color: white;
+}
+#settings input:hover, #settings input:focus {
+    background-color: #00000090;
+}
+.exitSettingsBtn {
+    color: white;
+}
+
+/*---------------------------bubbles-------------------------------*/
+.bubbles li:nth-child(1) {
+    background-color: #b1b1b17c;
+}
+.bubbles li:nth-child(2) {
+    background-color: #c5c5c5c3;
+}
+.bubbles li:nth-child(3) {
+    background-color: #cdcdcd88;
+}
+.bubbles li:nth-child(4) {
+    background-color: #c5c5c5c3;
+}
+.bubbles li:nth-child(5) {
+    background-color: #cdcdcd88;
+}
+.bubbles li:nth-child(6) {
+    background-color: #b1b1b17c;
+}
+.bubbles li:nth-child(7) {
+    background-color: #c5c5c5c3;
+}
+.bubbles li:nth-child(8) {
+    background-color: #cdcdcd88;
+}
+.bubbles li:nth-child(9) {
+    background-color: #c5c5c5c3;
+}
+.bubbles li:nth-child(10) {
+    background-color: #b1b1b17c;
+}

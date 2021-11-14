@@ -29,7 +29,6 @@
     -webkit-animation-delay: 0s;
     animation-duration: 40s;
     -webkit-animation-duration: 40s;
-    background-color: #7797eb7c;
 }
 .bubbles li:nth-child(2) {
     width: 130px;
@@ -40,7 +39,6 @@
     -webkit-animation-delay: 2s;
     animation-duration: 37s;
     -webkit-animation-duration: 37s;
-    background-color: #99e3f1c3;
     filter: blur(9px);
 }
 .bubbles li:nth-child(3) {
@@ -52,7 +50,6 @@
     -webkit-animation-delay: 4s;
     animation-duration: 33s;
     -webkit-animation-duration: 33s;
-    background-color: #aaa2f888;
     filter: blur(1px);
 }
 .bubbles li:nth-child(4) {
@@ -64,7 +61,6 @@
     -webkit-animation-delay: 1s;
     animation-duration: 32s;
     -webkit-animation-duration: 32s;
-    background-color: #99e3f1c3;
     filter: blur(7px);
 }
 .bubbles li:nth-child(5) {
@@ -76,7 +72,6 @@
     -webkit-animation-delay: 7s;
     animation-duration: 32s;
     -webkit-animation-duration: 32s;
-    background-color: #aaa2f888;
     filter: blur(2px);
 }
 .bubbles li:nth-child(6) {
@@ -89,7 +84,6 @@
     animation-duration: 30s;
     -webkit--webkit-animation-delay: 3s;
     -webkit-animation-duration: 30s;
-    background-color: #7797eb7c;
 }
 .bubbles li:nth-child(7) {
     width: 130px;
@@ -100,7 +94,6 @@
     -webkit-animation-delay: 10s;
     animation-duration: 37s;
     -webkit-animation-duration: 37s;
-    background-color: #99e3f1c3;
     filter: blur(8px);
 }
 .bubbles li:nth-child(8) {
@@ -113,7 +106,6 @@
     animation-duration: 33s;
     -webkit--webkit-animation-delay: 11s;
     -webkit-animation-duration: 33s;
-    background-color: #aaa2f888;
     filter: blur(1px);
 }
 .bubbles li:nth-child(9) {
@@ -125,7 +117,6 @@
     -webkit-animation-delay: 6s;
     animation-duration: 32s;
     -webkit-animation-duration: 32s;
-    background-color: #99e3f1c3;
     filter: blur(7px);
 }
 .bubbles li:nth-child(10) {
@@ -137,7 +128,6 @@
     -webkit-animation-delay: 11s;
     animation-duration: 37s;
     -webkit-animation-duration: 37s;
-    background-color: #7797eb7c;
 }
 
 @keyframes square {

@@ -40,6 +40,40 @@ html, body {
     overflow-x: hidden;
 }
 
+
+@media (max-width: 1300px) {
+    .container {
+        margin: 0 10%;
+    }
+    
+    html, body {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        margin: 0 1%;
+    }
+    
+    html, body {
+        font-size: 18px;
+    }
+}
+@media (orientation: portrait) {
+    .container {
+        margin: 0 1%;
+    }
+    
+    html, body {
+        font-size: 20px;
+    }
+    
+    .dropdown {
+        display: none;
+    }
+}
+/*
+
 #landingPage {
     position: fixed;
     background-color: white;
@@ -67,9 +101,13 @@ html, body {
 #landingPageBtn {
     transform: scale(300%) rotate(45deg);
     margin-top: 5rem;
-    border: solid 1px;
+    border: solid .1rem;
     border-color: transparent black black transparent;
 }
+#landingPageBtn:hover, #landingPageBtn:focus {
+    border-color: transparent var(--tommagenta) var(--tommagenta) transparent;
+}
+*/
 
 section{ /*offset anchors to compensate for fixed header*/
     position: relative;
@@ -107,6 +145,9 @@ section .anchor{
 .dropdown:hover #menubtn {
     color: var(--tommagenta);
 }
+#menubtn:focus {
+    color: var(--tommagenta);
+}
 
 .dropdown {
     float: left;
@@ -127,7 +168,7 @@ section .anchor{
     transform: rotate(45deg);
 }
 
-.navbar a:hover, .dropdown:hover{
+.navbar a:hover, .dropdown:hover, .navbar a:focus, .dropdown:focus{
     color: var(--tommagenta);
     text-decoration: none;
     background-color: #00000009;
@@ -153,51 +194,18 @@ section .anchor{
     font-size: 1.3rem;
     min-width: 100%;
 }
-.dropdown-content a:hover {
+.dropdown-content a:hover, .dropdown-content a:focus {
     color: var(--tommagenta) !important;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 /*-------------------------------navbar end---------------------------------------*/
 
 main {
-    margin-top: 5rem;    
+    margin-top: 5rem;
 }
 
 .container {
     margin: 0 20%;
-}
-
-@media (max-width: 1300px) {
-    .container {
-        margin: 0 10%;
-    }
-    html, body {
-        font-size: 16px;
-    }
-}
-@media (max-width: 800px) {
-    .container {
-        margin: 0 1%;
-    }
-    html, body {
-        font-size: 18px;
-    }
-}
-@media (orientation: portrait) {
-    .container {
-        margin: 0 1%;
-    }
-    html, body {
-        font-size: 20px;
-    }
-    
-    .dropdown {
-        display: none;
-    }
 }
 
 .h1 {
@@ -235,7 +243,7 @@ a {
 a:visited {
     color: var(--tommagenta);
 }
-a:hover {
+a:hover, a:focus {
     text-decoration: underline;
 }
 hr {
@@ -279,22 +287,26 @@ hr {
 }
 
 .revealBtn {
-    width: 14px;
-    height: 14px;
+    font-size: 2rem;
+    padding-bottom: 0;
+    font-weight: 0;
     background-color: transparent;
-    transform: rotate(45deg);
-    border: solid 2px;
-    border-color: transparent gray gray transparent;
+    border: none;
+    color: gray;
     margin-left: auto;
     margin-right: auto;
     display: block;
 }
-.revealBtn:hover {
+.revealBtn:hover, .revealBtn:focus {
     cursor: pointer;
+    color: var(--tommagenta);
 }
 
 #yellowReveal, #nw2Reveal, #nw1Reveal {
     display: none;
+}
+#yellowBox:hover .revealBtn, #nw1Box:hover .revealBtn, #nw2Box:hover .revealBtn {
+    color: var(--tommagenta);
 }
 
 #review {
@@ -320,10 +332,89 @@ hr {
     height: auto;
 }
 
+#settingsBackdrop {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: fixed;
+    display: none;
+    z-index: 997; /*one less than #settings*/
+}
+#settings {
+    display: none;
+    position: fixed;
+    z-index: 998;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#settings input {
+    font-family: "Century_Gothic", "Avenir";
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    padding: 1rem 0;
+    list-style: none;
+    width: 100%;
+    text-align: start;
+}
+#settings input:hover, #settings input:focus {
+    background-color: #00000009;
+    color: var(--tommagenta);
+    cursor: pointer;
+}
+.exitSettingsBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.exitSettingsBtn:hover, .exitSettingsBtn:focus {
+    color: var(--tommagenta);
+    cursor: pointer;
+}
+
 footer {
     font-size: 1rem;
     padding: 2rem 0;
     border-top: 1px dashed white;
     color: white;
     text-align: center;
+}
+/*---------------------------bubbles-------------------------------*/
+.bubbles li:nth-child(1) {
+    background-color: #7797eb7c;
+}
+.bubbles li:nth-child(2) {
+    background-color: #99e3f1c3;
+}
+.bubbles li:nth-child(3) {
+    background-color: #aaa2f888;
+}
+.bubbles li:nth-child(4) {
+    background-color: #99e3f1c3;
+}
+.bubbles li:nth-child(5) {
+    background-color: #aaa2f888;
+}
+.bubbles li:nth-child(6) {
+    background-color: #7797eb7c;
+}
+.bubbles li:nth-child(7) {
+    background-color: #99e3f1c3;
+}
+.bubbles li:nth-child(8) {
+    background-color: #aaa2f888;
+}
+.bubbles li:nth-child(9) {
+    background-color: #99e3f1c3;
+}
+.bubbles li:nth-child(10) {
+    background-color: #7797eb7c;
 }

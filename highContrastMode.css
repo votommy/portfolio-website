@@ -1,0 +1,70 @@
+:root {
+    --tommagenta: #ef6f7f;
+}
+
+/*----------------------------------------navbar----------------------------------------*/
+
+.navbar {
+    background-color: white;
+}
+
+.navbar a {
+    color: black;
+}
+
+.navbar a:hover, .dropdown:hover, .navbar a:focus, .dropdown:focus{
+    background-color: black;
+    color: var(--tommagenta) !important;
+}
+
+.dropdown-content {
+    background-color: white;
+}
+
+/*-------------------------------navbar end---------------------------------------*/
+
+.blurBox {
+    background-color: white;
+}
+
+.projectCard {
+    background-color: #F5F5F5;
+}
+
+hr {
+    border-top: 1px black;
+    border-style: solid none none none;
+}
+
+.pill-purple  {background-color: white; background-color: white; color: rebeccapurple; border-color: rebeccapurple}
+.pill-green   {background-color: white; background-color: white; color: green; border-color: green}
+.pill-orange  {background-color: white; background-color: white; color: darkorange; border-color: darkorange}
+.pill-yellow  {background-color: white; background-color: white; color: #323232; border-color: #FFDF00}
+.pill-blue    {background-color: white; background-color: white; color: royalblue; border-color: royalblue}
+.pill-black   {background-color: white; background-color: white; color: #323232; border-color: #323232}
+.pill-red     {background-color: white; background-color: white; color: red; border-color: red}
+.pill-magenta {background-color: white; background-color: white; color: magenta; border-color: magenta}
+
+.aboutMeLinks div {
+    background-color: white;
+}
+
+.revealBtn {
+    color: black;
+}
+
+#linkBox img {
+    border: 1px black solid;
+}
+
+#settings {
+    background-color: #F5F5F5;
+}
+#settings input:hover, #settings input:focus {
+    background-color: white;
+}
+
+footer {
+    border-top: 1px dashed black;
+    color: black;
+}

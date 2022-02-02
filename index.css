@@ -40,38 +40,6 @@ html, body {
     overflow-x: hidden;
 }
 
-
-@media (max-width: 1300px) {
-    .container {
-        margin: 0 10%;
-    }
-    
-    html, body {
-        font-size: 16px;
-    }
-}
-@media (max-width: 800px) {
-    .container {
-        margin: 0 1%;
-    }
-    
-    html, body {
-        font-size: 18px;
-    }
-}
-@media (orientation: portrait) {
-    .container {
-        margin: 0 1%;
-    }
-    
-    html, body {
-        font-size: 20px;
-    }
-    
-    .dropdown {
-        display: none;
-    }
-}
 /*
 
 #landingPage {
@@ -205,7 +173,39 @@ main {
 }
 
 .container {
-    margin: 0 20%;
+    margin: 0 20vw;
+}
+
+@media (max-width: 1300px) {
+    .container {
+        margin: 0 10vw;
+    }
+    
+    html, body {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        margin: 0 1vw;
+    }
+    
+    html, body {
+        font-size: 18px;
+    }
+}
+@media (orientation: portrait) {
+    .container {
+        margin: 0 1vw;
+    }
+    
+    html, body {
+        font-size: 20px;
+    }
+    
+    .dropdown {
+        display: none;
+    }
 }
 
 .h1 {
@@ -257,6 +257,7 @@ hr {
     border-radius: 1rem;
     padding: 0 7px 1px 7px;
     border: 2px solid;
+    line-height: 1.5rem;
 }
 .pill-purple  {background-color: white; background-color: #FFFFFF75; color: rebeccapurple; border-color: rebeccapurple}
 .pill-green   {background-color: white; background-color: #FFFFFF75; color: green; border-color: green}

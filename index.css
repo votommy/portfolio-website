@@ -327,11 +327,21 @@ hr {
     justify-content: space-around;
 }
 #linkBox img {
-    background-color: white;
     border-radius: 2rem;
     padding: 2rem;
     width: 4rem;
     height: auto;
+}
+#emailImg {
+    background-color: #2EAFFF; /*For no gradient support*/
+    background-image: linear-gradient(#0077FF, #81D8FF);
+}
+#linkedinImg {
+    background-color: white; /*For no gradient support*/
+    background-image: linear-gradient(white, white, white, #F4F4F4);
+}
+#githubImg {
+    background-color: #414141;
 }
 
 #settingsBackdrop {

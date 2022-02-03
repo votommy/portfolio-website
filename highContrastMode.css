@@ -53,8 +53,9 @@ hr {
     color: black;
 }
 
-#linkBox img {
-    border: 1px black solid;
+#linkedinImg {
+    background-color: #F5F5F5;
+    background-image: linear-gradient(#F5F5F5, #F5F5F5, #F5F5F5, #E9E9E9);
 }
 
 #settings {

@@ -146,8 +146,7 @@ section .anchor{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    background-color: #FFFFFF90;
+    background-color: #E0E4FC;
     min-width: 200px;
     z-index: 999;
     right: 0;
@@ -355,6 +354,7 @@ hr {
 }
 #settings input {
     font-family: "Century_Gothic", "Avenir";
+    color: black;
     background-color: transparent;
     border: none;
     font-size: 2rem;

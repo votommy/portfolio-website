@@ -27,6 +27,13 @@
     background-color: white;
 }
 
+//Only for FireFox, because it does not support blur
+@-moz-document url-prefix(){
+    #settings {
+        background-color: white;
+    }
+}
+
 .projectCard {
     background-color: #F5F5F5;
 }

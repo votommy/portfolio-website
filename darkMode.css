@@ -52,6 +52,13 @@ html {
     background-color: #00000090;
 }
 
+//Only for FireFox, because it does not support blur
+@-moz-document url-prefix(){
+    #settings {
+        background-color: #000000DD;
+    }
+}
+
 .projectCard {
     background-color: #00000090;
 }

@@ -150,6 +150,7 @@ section .anchor{
     min-width: 200px;
     z-index: 999;
     right: 0;
+    overflow-x: hidden;
 }
 
 .dropdown-content a {
@@ -202,6 +203,15 @@ main {
         font-size: 20px;
     }
     
+    .dropdown-content a {
+        padding: 18px 24px;
+        font-size: 2.5rem;
+    }
+    
+    #settings {
+        width: 80vw;
+    }
+    
 /*
     .dropdown {
         display: none;
@@ -225,6 +235,13 @@ main {
     padding: 2.5%;
     margin-bottom: 2.5%;
     border-radius: 40px;
+}
+
+//Only for FireFox, because it does not support blur
+@-moz-document url-prefix(){
+    #settings {
+        background-color: #FFFFFFEE;
+    }
 }
 
 .projectCard {

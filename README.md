@@ -5,4 +5,4 @@ Complete with visual accessibility settings & full keyboard navigation compatibi
 <br><br>
 <a href="https://votommy.github.io/votommy/" target="_blank" rel="noopener noreferrer">Website link: [votommy.com]</a>
 <br><br>
-My challenge for this project was to incorporate all my UX design skills and make the website as accessible as possible.
+My challenge for this project was to incorporate all my UX development skills and make the website as accessible as possible.

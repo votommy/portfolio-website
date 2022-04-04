@@ -1,4 +1,4 @@
-<img src="logo.svg" width="100px">
+<img src="logos/logo.svg" width="100px">
 <h1>Tommy Portfolio Website</h1>
 This site's goal is to showcase my frontend abilities while also displaying my professional portfolio and resume.<br>
 Complete with visual accessibility settings & full keyboard navigation compatibility.

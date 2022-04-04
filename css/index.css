@@ -4,22 +4,22 @@
 
 @font-face {
     font-family: "Century_Gothic";
-    src: url("fonts/GOTHIC.woff") format('woff');
+    src: url("../fonts/GOTHIC.woff") format('woff');
 }
 @font-face {
     font-family: "Century_Gothic";
-    src: url("fonts/GOTHICB.woff") format('woff');
+    src: url("../fonts/GOTHICB.woff") format('woff');
     font-weight: bold;
 }
 @font-face {
     font-family: "Century_Gothic";
-    src: url("fonts/GOTHICBI.woff") format('woff');
+    src: url("../fonts/GOTHICBI.woff") format('woff');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: "Century_Gothic";
-    src: url("fonts/GOTHICI.woff") format('woff');
+    src: url("../fonts/GOTHICI.woff") format('woff');
     font-style: italic;
 }
 

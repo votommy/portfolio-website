@@ -97,9 +97,7 @@ section .anchor{
 
 .navbar a {
     float: left;
-    font-size: 16px;
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -146,7 +144,8 @@ section .anchor{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #E0E4FC;
+    background-color: #E0E4FC; /*For no gradient support*/
+    background-image: linear-gradient(130deg, #D9EAFF, #CAE2FF, #D2D4FF);
     min-width: 200px;
     z-index: 999;
     right: 0;
@@ -203,8 +202,12 @@ main {
         font-size: 20px;
     }
     
+    #title, #menubtn {
+        font-size: 2rem;
+    }
+    
     .dropdown-content a {
-        padding: 18px 24px;
+        padding: 22px 28px;
         font-size: 2.5rem;
     }
     

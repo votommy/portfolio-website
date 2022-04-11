@@ -118,23 +118,22 @@ section .anchor{
     text-decoration: none;
 }
 
-#title, #menubtn {
+#title {
     color: black;
     font-weight: bold;
     font-size: 1.5rem;
-}
-#title {
     margin-left: 16px;
 }
-
-.dropdown:hover #menubtn {
-    color: var(--tommagenta);
-}
 #menubtn {
+    color: black;
     font-size: 3rem;
     padding: 5px 16px;
 }
 #menubtn:focus {
+    color: var(--tommagenta);
+}
+
+.dropdown:hover #menubtn {
     color: var(--tommagenta);
 }
 
@@ -220,8 +219,11 @@ main {
         font-size: 20px;
     }
     
-    #title, #menubtn {
+    #title {
         font-size: 2rem;
+    }
+    #menubtn {
+        font-size: 4rem;
     }
     
     .dropdown-content a {

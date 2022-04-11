@@ -130,6 +130,10 @@ section .anchor{
 .dropdown:hover #menubtn {
     color: var(--tommagenta);
 }
+#menubtn {
+    font-size: 3rem;
+    padding: 5px 16px;
+}
 #menubtn:focus {
     color: var(--tommagenta);
 }
@@ -142,15 +146,10 @@ section .anchor{
 .dropdown .dropbtn {
     font-size: 16px;  
     border: none;
-    outline: none;
     background-color: transparent;
     color: white;
     padding: 14px 16px;
     margin: 0;
-}
-
-.dropbtn {
-    transform: rotate(45deg);
 }
 
 .navbar a:hover, .dropdown:hover, .navbar a:focus, .dropdown:focus{

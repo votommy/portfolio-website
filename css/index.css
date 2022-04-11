@@ -107,6 +107,9 @@ section .anchor{
     font-weight: bold;
     font-size: 1.5rem;
 }
+#title {
+    margin-left: 16px;
+}
 
 .dropdown:hover #menubtn {
     color: var(--tommagenta);

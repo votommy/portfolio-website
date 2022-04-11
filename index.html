@@ -22,9 +22,9 @@
         </header>
 -->
         <div class="navbar">
-            <a id="title">TOMMY VO</a>
+            <h1 id="title">TOMMY VO</h1>
             <div class="dropdown">
-                <button tabindex="0" class="dropbtn" id="menubtn">&#10006;</button>
+                <button tabindex="0" class="dropbtn" id="menubtn" aria-label="menu">&#10006;</button>
                 <div class="dropdown-content">
                     <a class="navAboutMe" href="#aboutMe">About Me</a><br>
                     <a class="navExperience" href="#workXP">Experience</a><br>
@@ -46,8 +46,8 @@
                     <section>
                         <div id="settingsBackdrop" class="exitSettingsBtn"></div> <!--Click off the settings menu to exit-->
                         <div class="blurBox" id="settings">
-                            <span class="h1"><span style="font-weight: bold">&#9881;</span> Accessibility Settings:</span><br><br>
-                            <button class="exitSettingsBtn">&#10006;</button>
+                            <span class="h1" role="heading"><span style="font-weight: bold">&#9881;</span> Accessibility Settings:</span><br><br>
+                            <button class="exitSettingsBtn" aria-label="close settings">&#10006;</button>
                             <input id="lightModeBtn" type="button" value="&#9788; Light Mode" onclick="lightModeOn()"><br>
                             <input id="darkModeBtn" type="button" style="padding-left: .5rem;" value="&#9789; Dark Mode" onclick="darkModeOn()"><br>
                             <input id="highContrastModeBtn" type="button" value="&#10061; High Contrast Mode" onclick="highContrastModeOn()">

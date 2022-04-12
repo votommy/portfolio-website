@@ -260,13 +260,6 @@ main {
     border-radius: 40px;
 }
 
-//Only for FireFox, because it does not support blur
-@-moz-document url-prefix(){
-    #settings {
-        background-color: #FFFFFFEE;
-    }
-}
-
 .projectCard {
     background-color: #FFFFFF90;
     min-width: 70%;
@@ -401,6 +394,16 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+#settings {
+    background-color: white;
+    background-color: #FFFFFFEE;
+}
+@supports (backdrop-filter: blur()) {
+    #settings {
+        background-color: #FFFFFF90;
+        backdrop-filter: blur(1rem);
+    }
 }
 #settings input {
     font-family: "Century_Gothic", "Avenir";

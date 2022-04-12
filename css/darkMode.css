@@ -52,13 +52,6 @@ html {
     background-color: #00000090;
 }
 
-//Only for FireFox, because it does not support blur
-@-moz-document url-prefix(){
-    #settings {
-        background-color: #000000DD;
-    }
-}
-
 .projectCard {
     background-color: #00000090;
 }
@@ -93,11 +86,22 @@ hr {
     text-decoration-color: white;
 }
 
+#settings {
+    background-color: black;
+    background-color: #000000EE;
+}
+@supports (backdrop-filter: blur()) {
+    #settings {
+        background-color: #00000090;
+        backdrop-filter: blur(1rem);
+    }
+}
+
 #settings input {
     color: white;
 }
 #settings input:hover, #settings input:focus {
-    background-color: #00000090;
+    background-color: #FFFFFF20;
 }
 .exitSettingsBtn {
     color: white;

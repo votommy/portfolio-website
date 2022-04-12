@@ -394,10 +394,9 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-#settings {
     background-color: white;
     background-color: #FFFFFFEE;
+    box-shadow: 0 0 2rem #00000090;
 }
 @supports (backdrop-filter: blur()) {
     #settings {

@@ -38,6 +38,7 @@ html, body {
     padding: 0;
     margin: 0;
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 .skipLinks {
@@ -233,6 +234,12 @@ main {
     
     #settings {
         width: 80vw;
+    }
+    .aboutMeLinks div {
+        font-size: 22px;
+        padding: 16px;
+        margin: 0 44px;
+        border-radius: 44px;
     }
 }
 

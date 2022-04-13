@@ -69,22 +69,19 @@ hr {
     border-style: solid none none none;
 }
 
-.pill-purple  {background-color: white; background-color: rebeccapurple; color: white; border-color: rebeccapurple}
-.pill-green   {background-color: white; background-color: green; color: white; border-color: green}
-.pill-orange  {background-color: white; background-color: darkorange; color: black; border-color: darkorange}
-.pill-yellow  {background-color: white; background-color: #FFDF00; color: black; border-color: #FFDF00}
-.pill-blue    {background-color: white; background-color: royalblue; color: white; border-color: royalblue}
-.pill-black   {background-color: white; background-color: black; color: white; border-color: black}
-.pill-red     {background-color: white; background-color: red; color: black; border-color: red}
-.pill-magenta {background-color: white; background-color: magenta; color: black; border-color: magenta}
+.pill-purple  {background-color: white; background-color: #00000075; color: #C649F7; border-color: #C649F7}
+.pill-green   {background-color: white; background-color: #00000075; color: #00A955; border-color: #00A955}
+.pill-orange  {background-color: white; background-color: #00000075; color: #FF8400; border-color: #FF8400}
+.pill-yellow  {background-color: white; background-color: #00000075; color: #FFDF00; border-color: #FFDF00}
+.pill-blue    {background-color: white; background-color: #00000075; color: dodgerblue; border-color: dodgerblue}
+.pill-black   {background-color: white; background-color: #00000075; color: #FFFFFF; border-color: #FFFFFF}
+.pill-red     {background-color: white; background-color: #00000075; color: #FF3A3A; border-color: #FF3A3A}
+.pill-magenta {background-color: white; background-color: #00000075; color: #FF39CD; border-color: #FF39CD}
 
 .aboutMeLinks div {
     border: 2px solid var(--tommagenta);
-    color: white;
-    background-color: var(--tommagenta);
-}
-.aboutMeLinks a:hover {
-    text-decoration-color: white;
+    color: var(--tommagenta);
+    background-color: black; background-color: #00000075;
 }
 
 #settings {

@@ -216,7 +216,7 @@ main {
     }
     
     html, body {
-        font-size: 20px;
+        font-size: 22px;
     }
     
     #title {
@@ -234,12 +234,6 @@ main {
     #settings {
         width: 80vw;
     }
-    
-/*
-    .dropdown {
-        display: none;
-    }
-*/
 }
 
 .h1 {

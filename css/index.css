@@ -232,7 +232,7 @@ main {
         font-size: 2.5rem;
     }
     
-    #settings {
+    #settings, privacy {
         width: 80vw;
     }
     .aboutMeLinks div {
@@ -436,12 +436,69 @@ hr {
     cursor: pointer;
 }
 
+#privacyBackdrop {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: transparent;
+    position: fixed;
+    display: none;
+    z-index: 997; /*one less than #settings*/
+}
+#privacy {
+    display: none;
+    position: fixed;
+    z-index: 998;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    background-color: #FFFFFFEE;
+    box-shadow: 0 0 2rem #00000090;
+}
+@supports (backdrop-filter: blur()) {
+    #privacy {
+        background-color: #FFFFFF90;
+        backdrop-filter: blur(1rem);
+    }
+}
+.privacyLink {
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-family: "Century_Gothic", "Avenir";
+    display: inline;
+}
+.privacyLink:hover, .privacyLink:focus {
+    cursor: pointer;
+    color: var(--tommagenta);
+}
+.exitPrivacyBtn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.exitPrivacyBtn:hover, .exitPrivacyBtn:focus {
+    color: var(--tommagenta);
+    cursor: pointer;
+}
+
 footer {
     font-size: 1rem;
     padding: 2rem 0;
     border-top: 1px dashed white;
     color: white;
     text-align: center;
+    display: inline-block;
+    width: 100%;
 }
 /*---------------------------bubbles-------------------------------*/
 .bubbles li:nth-child(1) {

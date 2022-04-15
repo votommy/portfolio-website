@@ -84,12 +84,12 @@ hr {
     background-color: black; background-color: #00000075;
 }
 
-#settings {
+#settings, privacy {
     background-color: black;
     background-color: #000000EE;
 }
 @supports (backdrop-filter: blur()) {
-    #settings {
+    #settings, #privacy {
         background-color: #00000090;
         backdrop-filter: blur(1rem);
     }
@@ -100,7 +100,7 @@ hr {
 #settings input:hover, #settings input:focus {
     background-color: #FFFFFF20;
 }
-.exitSettingsBtn {
+.exitSettingsBtn, .exitPrivacyBtn {
     color: white;
 }
 

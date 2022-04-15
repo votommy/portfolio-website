@@ -58,6 +58,15 @@ $(document).ready(function() { //jQuery
     $(".dropdown").click(function() {
         $(".navList").toggle(); //Toggle visibility of dropdown menu in mobile
     });
+    
+    $(".privacyLink").click(function() {
+        $("#privacy").css("display", "block");
+        $("#privacyBackdrop").css("display", "block");
+    });
+    $(".exitPrivacyBtn").click(function() {
+        $("#privacy").css("display", "none");
+        $("#privacyBackdrop").css("display", "none");
+    });
 }); //End jQuery
 
 function disableScroll() {
@@ -152,4 +161,4 @@ function nw1Reveal() {
 }
 
 let year = new Date().getFullYear(); //Automatically update copyright year
-document.querySelector("#copyrightDate").innerHTML = "&copy;" + year + " Developed by Tommy Vo | All rights reserved";
+document.querySelector("#copyrightDate").innerHTML = "&copy;" + year + " Developed by Tommy Vo | ";

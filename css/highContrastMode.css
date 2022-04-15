@@ -27,13 +27,6 @@
     background-color: white;
 }
 
-//Only for FireFox, because it does not support blur
-@-moz-document url-prefix(){
-    #settings {
-        background-color: white;
-    }
-}
-
 .projectCard {
     background-color: #F5F5F5;
 }
@@ -65,11 +58,15 @@ hr {
     background-image: linear-gradient(#F5F5F5, #F5F5F5, #F5F5F5, #E9E9E9);
 }
 
-#settings {
+#settings, privacy {
     background-color: #F5F5F5;
 }
 #settings input:hover, #settings input:focus {
     background-color: white;
+}
+
+.privacyLink {
+    color: black;
 }
 
 footer {

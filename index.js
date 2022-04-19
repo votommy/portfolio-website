@@ -161,4 +161,4 @@ function nw1Reveal() {
 }
 
 let year = new Date().getFullYear(); //Automatically update copyright year
-document.querySelector("#copyrightDate").innerHTML = "&copy;" + year + " Developed by Tommy Vo | ";
+document.querySelector("#copyrightDate").innerHTML = "&copy;" + year + " Developed by Tommy Vo";

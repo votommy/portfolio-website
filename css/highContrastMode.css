@@ -37,7 +37,7 @@ hr {
     border-style: solid none none none;
 }
 
-.pill-purple  {background-color: white; background-color: white; color: rebeccapurple; border-color: rebeccapurple}
+.pill-purple  {background-color: white; background-color: white; color: #A723DB; border-color: #A723DB}
 .pill-green   {background-color: white; background-color: white; color: green; border-color: green}
 .pill-orange  {background-color: white; background-color: white; color: darkorange; border-color: darkorange}
 .pill-yellow  {background-color: white; background-color: white; color: #323232; border-color: #FFDF00}

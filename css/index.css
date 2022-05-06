@@ -294,7 +294,7 @@ hr {
     border: 2px solid;
     line-height: 1.5rem;
 }
-.pill-purple  {background-color: white; background-color: #FFFFFF75; color: rebeccapurple; border-color: rebeccapurple}
+.pill-purple  {background-color: white; background-color: #FFFFFF75; color: #A723DB; border-color: #A723DB}
 .pill-green   {background-color: white; background-color: #FFFFFF75; color: green; border-color: green}
 .pill-orange  {background-color: white; background-color: #FFFFFF75; color: darkorange; border-color: darkorange}
 .pill-yellow  {background-color: white; background-color: #FFFFFF75; color: #323232; border-color: #FFDF00}

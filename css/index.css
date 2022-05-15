@@ -6,25 +6,29 @@
     font-family: "TommySans";
     src: url("../fonts/TommySans.woff") format('woff');
 }
-
 @font-face {
-    font-family: "Century_Gothic";
-    src: url("../fonts/GOTHIC.woff") format('woff');
-}
-@font-face {
-    font-family: "Century_Gothic";
-    src: url("../fonts/GOTHICB.woff") format('woff');
+    font-family: "TommySans";
+    src: url("../fonts/TommySansBold.woff") format('woff');
     font-weight: bold;
 }
 @font-face {
     font-family: "Century_Gothic";
-    src: url("../fonts/GOTHICBI.woff") format('woff');
+    src: url("../fonts/CenturyGothic.woff") format('woff');
+}
+@font-face {
+    font-family: "Century_Gothic";
+    src: url("../fonts/CenturyGothicBold.woff") format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Century_Gothic";
+    src: url("../fonts/CenturyGothicBoldItalic.woff") format('woff');
     font-weight: bold;
     font-style: italic;
 }
 @font-face {
     font-family: "Century_Gothic";
-    src: url("../fonts/GOTHICI.woff") format('woff');
+    src: url("../fonts/CenturyGothicItalic.woff") format('woff');
     font-style: italic;
 }
 
@@ -337,17 +341,15 @@ hr {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    width: 100%;
 }
-.revealBtn:hover, .revealBtn:focus {
+.revealBtn:hover {
     cursor: pointer;
     color: var(--tommagenta);
 }
 
 #yellowReveal, #nw2Reveal, #nw1Reveal {
     display: none;
-}
-#yellowBox:hover .revealBtn, #nw1Box:hover .revealBtn, #nw2Box:hover .revealBtn {
-    color: var(--tommagenta);
 }
 
 #review {

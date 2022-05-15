@@ -3,6 +3,11 @@
 }
 
 @font-face {
+    font-family: "TommySans";
+    src: url("../fonts/TommySans.woff") format('woff');
+}
+
+@font-face {
     font-family: "Century_Gothic";
     src: url("../fonts/GOTHIC.woff") format('woff');
 }
@@ -34,7 +39,7 @@ html {
 }
 
 html, body {
-    font-family: "Century_Gothic", "Avenir";
+    font-family: "TommySans", "Century_Gothic", "Avenir";
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -290,7 +295,7 @@ hr {
 .pills {
     font-size: .9rem;
     border-radius: 1rem;
-    padding: 0 7px 1px 7px;
+    padding: 3px 7px 1px 7px;
     border: 2px solid;
     line-height: 1.5rem;
 }
@@ -406,7 +411,7 @@ hr {
     }
 }
 #settings input {
-    font-family: "Century_Gothic", "Avenir";
+    font-family: "TommySans", "Century_Gothic", "Avenir";
     color: black;
     background-color: transparent;
     border: none;
@@ -462,33 +467,6 @@ hr {
         background-color: #FFFFFF90;
         backdrop-filter: blur(1rem);
     }
-}
-.privacyLink {
-    color: white;
-    text-decoration: underline;
-    background-color: transparent;
-    border: none;
-    font-size: 1rem;
-    font-family: "Century_Gothic", "Avenir";
-    display: inline;
-}
-.privacyLink:hover, .privacyLink:focus {
-    cursor: pointer;
-    color: var(--tommagenta);
-}
-.exitPrivacyBtn {
-    position: absolute;
-    top: 1rem;
-    right: 1.5rem;
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-.exitPrivacyBtn:hover, .exitPrivacyBtn:focus {
-    color: var(--tommagenta);
-    cursor: pointer;
 }
 
 footer {

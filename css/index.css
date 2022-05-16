@@ -2,13 +2,16 @@
     --tommagenta: #ef6f7f;
 }
 
+
 @font-face {
     font-family: "TommySans";
-    src: url("../fonts/TommySans.woff") format('woff');
+    src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySans.woff") format('woff'),
+         url("../fonts/TommySans.woff") format('woff'); /*If web-hosted font doesn't work, use the on-board one*/
 }
 @font-face {
     font-family: "TommySans";
-    src: url("../fonts/TommySansBold.woff") format('woff');
+    src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySansBold.woff") format('woff'),
+         url("../fonts/TommySansBold.woff") format('woff'); /*If web-hosted font doesn't work, use the on-board one*/
     font-weight: bold;
 }
 @font-face {

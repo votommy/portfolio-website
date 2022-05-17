@@ -2,7 +2,6 @@
     --tommagenta: #ef6f7f;
 }
 
-
 @font-face {
     font-family: "TommySans";
     src: url("https://github.com/votommy/TommySans/blob/main/WOFFs/TommySans.woff") format('woff'),
@@ -46,7 +45,7 @@ html {
 }
 
 html, body {
-    font-family: "TommySans", "Century_Gothic", "Avenir";
+    font-family: "TommySans", "Century_Gothic";
     padding: 0;
     margin: 0;
     overflow-x: hidden;
@@ -416,7 +415,7 @@ hr {
     }
 }
 #settings input {
-    font-family: "TommySans", "Century_Gothic", "Avenir";
+    font-family: "TommySans", "Century_Gothic";
     color: black;
     background-color: transparent;
     border: none;

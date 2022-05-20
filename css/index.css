@@ -117,10 +117,13 @@ section .anchor{
 
 .navbar {
     overflow: hidden;
-    background-color: white;
-    background-color: #FFFFFF90;
+    background-color: #E0E4FC; /*For no gradient support*/
+    background-image: linear-gradient(130deg, #D9EAFF, #CAE2FF, #D2D4FF);
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 
 .navbar a {
@@ -172,7 +175,7 @@ section .anchor{
 
 .dropdown-content {
     display: none;
-    position: absolute;
+    position: fixed;
     background-color: #E0E4FC; /*For no gradient support*/
     background-image: linear-gradient(130deg, #D9EAFF, #CAE2FF, #D2D4FF);
     min-width: 200px;

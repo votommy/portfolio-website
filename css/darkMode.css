@@ -13,7 +13,7 @@ html {
 .navbar {
     overflow: hidden;
     background-color: black;
-    background-color: #00000090;
+    background-image: linear-gradient(130deg, #5A5A5A, #898989);
     display: flex;
     justify-content: space-between;
 }

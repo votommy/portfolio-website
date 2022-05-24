@@ -110,7 +110,7 @@ section{ /*offset anchors to compensate for fixed header*/
 }
 section .anchor{
     position: absolute;
-    top: -6vh;
+    top: -75px;
 }
  
 /*----------------------------------------navbar----------------------------------------*/
@@ -207,56 +207,6 @@ main {
     margin: 0 20vw;
 }
 
-@media (max-width: 1300px) {
-    .container {
-        margin: 0 10vw;
-    }
-    
-    html, body {
-        font-size: 16px;
-    }
-}
-@media (max-width: 800px) {
-    .container {
-        margin: 0 1vw;
-    }
-    
-    html, body {
-        font-size: 18px;
-    }
-}
-@media (orientation: portrait) {
-    .container {
-        margin: 0 1vw;
-    }
-    
-    html, body {
-        font-size: 22px;
-    }
-    
-    #title {
-        font-size: 2rem;
-    }
-    #menubtn {
-        font-size: 4rem;
-    }
-    
-    .dropdown-content a {
-        padding: 22px 28px;
-        font-size: 2.5rem;
-    }
-    
-    #settings, privacy {
-        width: 80vw;
-    }
-    .aboutMeLinks div {
-        font-size: 32px;
-        padding: 16px;
-        margin: 0 44px;
-        border-radius: 44px;
-    }
-}
-
 .h1 {
     font-size: 1.6rem;
 }
@@ -273,6 +223,9 @@ main {
     padding: 2.5%;
     margin-bottom: 2.5%;
     border-radius: 40px;
+}
+#firstBlurBox {
+    margin-top: 75px; /* same as section .anchor{ top: -75px; } */
 }
 
 .projectCard {
@@ -515,4 +468,64 @@ footer {
 }
 .bubbles li:nth-child(10) {
     background-color: #7797eb7c;
+}
+/*-------------------------media queries----------------------------*/
+@media (max-width: 1300px) {
+    .container {
+        margin: 0 10vw;
+    }
+    
+    html, body {
+        font-size: 16px;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        margin: 0 1vw;
+    }
+    
+    html, body {
+        font-size: 18px;
+    }
+}
+@media (orientation: portrait) {
+    .container {
+        margin: 0 1vw;
+    }
+    
+    html, body {
+        font-size: 22px;
+    }
+    
+    section .anchor{
+        position: absolute;
+        top: -125px;
+    }
+    
+    #title {
+        font-size: 2rem;
+    }
+    #menubtn {
+        font-size: 4rem;
+    }
+    
+    .dropdown-content a {
+        padding: 22px 28px;
+        font-size: 2.5rem;
+    }
+    
+    #settings, privacy {
+        width: 80vw;
+    }
+    
+    #firstBlurBox {
+        margin-top: 125px; /* same as section .anchor{ top: -125px; } */
+    }
+    
+    .aboutMeLinks div {
+        font-size: 32px;
+        padding: 16px;
+        margin: 0 44px;
+        border-radius: 44px;
+    }
 }

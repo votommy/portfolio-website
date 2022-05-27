@@ -118,7 +118,7 @@ section .anchor{
 .navbar {
     overflow: hidden;
     background-color: #E0E4FC; /*For no gradient support*/
-    background-image: linear-gradient(130deg, #D9EAFF, #CAE2FF, #D2D4FF);
+    background-image: linear-gradient(225deg, #D9EAFF, #CAE2FF);
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -177,7 +177,7 @@ section .anchor{
     display: none;
     position: fixed;
     background-color: #E0E4FC; /*For no gradient support*/
-    background-image: linear-gradient(130deg, #D9EAFF, #CAE2FF, #D2D4FF);
+    background-image: linear-gradient(135deg, #D9EAFF, #CAE2FF, #D2D4FF);
     min-width: 200px;
     z-index: 999;
     right: 0;

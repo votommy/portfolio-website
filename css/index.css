@@ -139,17 +139,50 @@ section .anchor{
     font-size: 1.5rem;
     margin-left: 16px;
 }
-#menubtn {
-    color: black;
-    font-size: 3rem;
-    padding: 5px 16px;
-}
-#menubtn:focus {
-    color: var(--tommagenta);
-}
 
-.dropdown:hover #menubtn {
-    color: var(--tommagenta);
+#hamburger {
+    position: relative;
+    margin: 18px;
+}
+#hamburger:focus {
+    border: black solid 1px;
+}
+#hamburger span { /*The three lines*/
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: black;
+    left: 0;
+    transition: .5s;
+}
+/*Closed menu*/
+#hamburger #top {
+    top: 0px; /*top*/
+}
+#hamburger #middle1, #hamburger #middle2 {
+    top: 12px; /*middle*/
+}
+#hamburger #bottom {
+    top: 24px; /*bottom*/
+}
+/*Opened menu*/
+#hamburger.x span{
+    background: var(--tommagenta);
+}
+#hamburger.x #top {
+    top: 12px; /*move to middle*/
+    transform: rotate(135deg);
+}
+#hamburger.x #middle1 {
+    transform: rotate(45deg);
+}
+#hamburger.x #middle2 {
+    transform: rotate(-45deg);
+}
+#hamburger.x #bottom {
+    top: 12px; /*move to middle*/
+    transform: rotate(-135deg);
 }
 
 .dropdown {
@@ -505,9 +538,32 @@ footer {
     #title {
         font-size: 2rem;
     }
-    #menubtn {
-        font-size: 4rem;
+    #hamburger {
+        height: 24px;
+        width: 32px;
+        margin: 32px;
     }
+    #hamburger span { /*The three lines*/
+        height: 8px;
+    }
+    /*Closed menu*/
+    #hamburger #top {
+        top: 0px; /*top*/
+    }
+    #hamburger #middle1, #hamburger #middle2 {
+        top: 24px; /*middle*/
+    }
+    #hamburger #bottom {
+        top: 48px; /*bottom*/
+    }
+    /*Opened menu*/
+    #hamburger.x #top {
+        top: 24px; /*move to middle*/
+    }
+    #hamburger.x #bottom {
+        top: 24px; /*move to middle*/
+    }
+    
     
     .dropdown-content a {
         padding: 22px 28px;

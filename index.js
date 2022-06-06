@@ -4,14 +4,20 @@ $(document).ready(function() { //jQuery
 //        landingPageVanish();
 //    });
     
-    $("#menubtn").focusin(function() {
+    $("#hamburger").focusin(function() {
         $(".dropdown-content").css("display", "block");
+        $('#hamburger').addClass('x');
+    });
+    $("#hamburger").focusout(function() {
+        $('#hamburger').removeClass('x');
     });
     $(".dropdown").mouseover(function() {
         $(".dropdown-content").css("display", "block");
+        $('#hamburger').addClass('x');
     });
     $(".dropdown").mouseout(function() {
         $(".dropdown-content").css("display", "none");
+        $('#hamburger').removeClass('x');
     });
     
     $(".navAboutMe").click(function() { //scrolls to About Me on click. Animate smooth scroll
@@ -55,9 +61,6 @@ $(document).ready(function() { //jQuery
         $("#settingsBackdrop").css("display", "none");
     });
     
-    $(".dropdown").click(function() {
-        $(".navList").toggle(); //Toggle visibility of dropdown menu in mobile
-    });
 }); //End jQuery
 
 function disableScroll() {

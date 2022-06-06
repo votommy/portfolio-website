@@ -18,12 +18,11 @@ html {
     justify-content: space-between;
 }
 
-#title, #menubtn {
+#title {
     color: white;
 }
-
-.dropdown:hover #menubtn {
-    color: var(--tommagenta);
+#hamburger span {
+    background-color: white;
 }
 .dropdown .dropbtn {
     color: white;

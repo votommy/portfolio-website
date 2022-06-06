@@ -13,7 +13,7 @@
     <body onload="checkTheme()">
         
         <ul class="skipLinks">
-            <li><a href="#menubtn">Skip to navigation</a></li>
+            <li><a href="#hamburger">Skip to navigation</a></li>
             <li><a href="#main">Skip to main content</a></li>
         </ul>
 <!--
@@ -29,7 +29,15 @@
         <div class="navbar">
             <h1 id="title">TOMMY VO</h1>
             <div class="dropdown">
-                <button class="dropbtn" id="menubtn" aria-label="Open navigation menu">&plus;</button>
+<!--                <button class="dropbtn" id="menubtn" aria-label="Open navigation menu">&plus;</button>-->
+                
+                <div id="hamburger" class="dropbtn" tabindex="0" role="button" aria-label="Open navigation menu">
+                  <span id="top"></span>
+                  <span id="middle1"></span>
+                  <span id="middle2"></span>
+                  <span id="bottom"></span>
+                </div>
+                
                 <div class="dropdown-content">
                     <a class="navAboutMe" href="#aboutMe">About Me</a><br>
                     <a class="navExperience" href="#workXP">Experience</a><br>

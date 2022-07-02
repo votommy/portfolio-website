@@ -63,12 +63,12 @@ $(document).ready(function() { //jQuery
     
 }); //End jQuery
 
-function disableScroll() {
-    window.onscroll = () => { window.scroll(0, 0); };
-}
-function enableScroll() {
-    window.onscroll = function() {};
-}
+//function disableScroll() {
+//    window.onscroll = () => { window.scroll(0, 0); };
+//}
+//function enableScroll() {
+//    window.onscroll = function() {};
+//}
 
 //function landingPageVanish() {
 //    const landingPage = document.querySelector("#landingPage");

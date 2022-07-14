@@ -343,7 +343,7 @@ hr {
     display: none;
 }
 
-#review {
+.review {
     font-style: italic;
 }
 #reviewAuthor {

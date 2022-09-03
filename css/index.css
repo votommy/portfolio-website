@@ -339,7 +339,7 @@ hr {
     color: var(--tommagenta);
 }
 
-#yellowReveal, #nw2Reveal, #nw1Reveal {
+#esriReveal, #yellowReveal, #nw2Reveal, #nw1Reveal {
     display: none;
 }
 

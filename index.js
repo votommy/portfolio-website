@@ -114,6 +114,19 @@ function highContrastModeOn() {
     highContrastSheet.disabled = false;
 }
 
+function esriReveal() {
+    const block = document.querySelector("#esriReveal");
+    const button = document.querySelector("#esriRevealBtn");
+    
+    if (block.style.display === "none" || block.style.display === "") {
+        block.style.display = "block";
+        button.innerHTML = "&minus;";
+    }
+    else {
+        block.style.display = "none";
+        button.innerHTML = "&plus;";
+    }
+}
 function yellowReveal() {
     const block = document.querySelector("#yellowReveal");
     const button = document.querySelector("#yellowRevealBtn");

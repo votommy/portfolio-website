@@ -1,9 +1,4 @@
 $(document).ready(function() { //jQuery
-//    disableScroll();
-//    $(window).one('scroll', function() {
-//        landingPageVanish();
-//    });
-    
     $("#hamburger").focusin(function() {
         $(".dropdown-content").css("display", "block");
         $('#hamburger').addClass('x');
@@ -62,28 +57,6 @@ $(document).ready(function() { //jQuery
     });
     
 }); //End jQuery
-
-//function disableScroll() {
-//    window.onscroll = () => { window.scroll(0, 0); };
-//}
-//function enableScroll() {
-//    window.onscroll = function() {};
-//}
-
-//function landingPageVanish() {
-//    const landingPage = document.querySelector("#landingPage");
-//    landingPage.style.transform = "translate(0, -100%)";
-//        
-//    //wait for landing page to leave the screen. Time should match CSS transition-duration
-//    setTimeout(function() {
-//        landingPage.style.display = "none"; //make it disappear
-//        enableScroll();
-//    }, 900);
-//
-//    //start the page at the top, in case the user scrolls before clicking the landing page
-//    document.body.scrollTop = 0;
-//    document.documentElement.scrollTop = 0;
-//}
 
 function checkTheme() {
     const darkSheet = document.styleSheets[1];

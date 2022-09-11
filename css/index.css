@@ -68,43 +68,6 @@ html, body {
     top: 0;
 }
 
-/*
-
-#landingPage {
-    position: fixed;
-    background-color: white;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 100vh;
-    width: 100vw;
-    z-index: 99;
-    font-size: 3rem;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition-duration: 900ms;
-}
-#landingPage p {
-    margin: 0 2rem;
-    color: black;
-}
-#statementSignature {
-    align-self: flex-end;
-    padding: 0 2rem;
-}
-#landingPageBtn {
-    transform: scale(300%) rotate(45deg);
-    margin-top: 5rem;
-    border: solid .1rem;
-    border-color: transparent black black transparent;
-}
-#landingPageBtn:hover, #landingPageBtn:focus {
-    border-color: transparent var(--tommagenta) var(--tommagenta) transparent;
-}
-*/
-
 section{ /*offset anchors to compensate for fixed header*/
     position: relative;
 }
@@ -318,6 +281,17 @@ hr {
     cursor: pointer;
 }
 
+#resumePreview {
+    display: none;
+    width: 200px;
+    transform: translate(25px, -220px);
+    position: absolute;
+    z-index: 996;
+}
+#resumeBtn:hover #resumePreview {
+    display: inline-block;
+}
+
 .list li {
     list-style: circle;
 }
@@ -432,34 +406,6 @@ hr {
 .exitSettingsBtn:hover, .exitSettingsBtn:focus {
     color: var(--tommagenta);
     cursor: pointer;
-}
-
-#privacyBackdrop {
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: transparent;
-    position: fixed;
-    display: none;
-    z-index: 997; /*one less than #settings*/
-}
-#privacy {
-    display: none;
-    position: fixed;
-    z-index: 998;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    background-color: #FFFFFFEE;
-    box-shadow: 0 0 2rem #00000090;
-}
-@supports (backdrop-filter: blur()) {
-    #privacy {
-        background-color: #FFFFFF90;
-        backdrop-filter: blur(1rem);
-    }
 }
 
 footer {

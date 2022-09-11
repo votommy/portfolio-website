@@ -16,21 +16,10 @@
             <li><a href="#hamburger">Skip to navigation</a></li>
             <li><a href="#main">Skip to main content</a></li>
         </ul>
-<!--
-        <header id="landingPage" onclick="landingPageVanish()">
-            <p>
-                Design is about more than just how something looks;<br>
-                it's about how it makes us feel.
-            </p><br>
-            <p id="statementSignature">-Tommy Vo</p>
-            <button tabindex="0" class="revealBtn" id="landingPageBtn" onclick="landingPageVanish()"></button>
-        </header>
--->
+
         <div class="navbar">
             <h1 id="title">TOMMY VO</h1>
-            <div class="dropdown">
-<!--                <button class="dropbtn" id="menubtn" aria-label="Open navigation menu">&plus;</button>-->
-                
+            <div class="dropdown">                
                 <div id="hamburger" class="dropbtn" tabindex="0" role="button" aria-label="Open navigation menu">
                   <span id="top"></span>
                   <span id="middle1"></span>
@@ -91,7 +80,9 @@
                             <br><br><br>
                             <span class="aboutMeLinks">
                                 <a href="documents/TommyVo_Resume.pdf#zoom=20" target="_blank" rel="noopener noreferrer" aria-label="Resume - opens in new tab">
-                                    <div>My Resume</div>
+                                    <div id="resumeBtn">My Resume
+                                        <img id="resumePreview" src="documents/resume.svg" alt="A preview of Tommy's resume."/>
+                                    </div>
                                 </a>
                             </span>
                         </div>

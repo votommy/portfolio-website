@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg824"
    xml:space="preserve"
@@ -9,12 +15,10 @@
    height="4157.478"
    viewBox="0 0 3212.5984 4157.478"
    sodipodi:docname="resume.svg"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"><metadata
+     id="metadata205"><rdf:RDF><cc:Work
+         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
      id="defs828"><linearGradient
        inkscape:collect="always"
        id="linearGradient1236"><stop
@@ -83,15 +87,16 @@
      inkscape:pageopacity="1"
      inkscape:pagecheckerboard="0"
      showgrid="false"
-     inkscape:zoom="0.22627418"
-     inkscape:cx="607.66986"
-     inkscape:cy="2934.493"
+     inkscape:zoom="0.16972834"
+     inkscape:cx="1464.2758"
+     inkscape:cy="2609.6724"
      inkscape:window-width="1920"
      inkscape:window-height="1014"
-     inkscape:window-x="-8"
+     inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g830" /><g
+     inkscape:current-layer="g830"
+     inkscape:document-rotation="0" /><g
      id="g830"
      inkscape:groupmode="layer"
      inkscape:label="TommyVo_Resume"
@@ -120,8 +125,7 @@
          xml:space="preserve"
          transform="translate(-5.8593748)"><tspan
            x="306.40796"
-           y="220.79459"
-           id="tspan5465">Front End Software Engineer</tspan></text></g><text
+           y="220.79459"><tspan>Front End Software Engineer</tspan></tspan></text></g><text
        style="font-variant:normal;font-weight:normal;font-size:34.4489px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text936-8"
        x="1525.3466"
@@ -191,10 +195,8 @@
        transform="translate(0,-4.3334227)"
        xml:space="preserve"><tspan
          x="42.898842"
-         y="384.52313"
-         id="tspan5469"><tspan
-           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'"
-           id="tspan5467">Education</tspan></tspan></text><text
+         y="384.52313"><tspan
+           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'">Education</tspan></tspan></text><text
        style="font-variant:normal;font-weight:bold;font-size:40.6511px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text952"
        x="40.687073"
@@ -210,12 +212,10 @@
        transform="translate(-2.5832344,-23.744231)"
        xml:space="preserve"><tspan
          x="84.568787"
-         y="794.216"
-         id="tspan5471">Metropolitan Community College
-</tspan><tspan
+         y="794.216"><tspan>Metropolitan Community College
+</tspan></tspan><tspan
          x="84.568787"
-         y="837.27711"
-         id="tspan5473">Kansas City, MO</tspan></text><text
+         y="837.27711"><tspan>Kansas City, MO</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:40.6511px;line-height:1.25;font-family:sans-serif;white-space:pre;inline-size:1400.93;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
        x="44.808598"
@@ -223,10 +223,8 @@
        id="text172808"
        transform="translate(-6.4637234,-55.637663)"><tspan
          x="44.808598"
-         y="489.43616"
-         id="tspan5477"><tspan
-           style="font-weight:bold;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'"
-           id="tspan5475">Professional Certificate — Google UX Design Specialization</tspan></tspan></text><text
+         y="489.43616"><tspan
+           style="font-weight:bold;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'">Professional Certificate — Google UX Design Specialization</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:34.4489px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
        x="82.001945"
@@ -267,10 +265,8 @@
        transform="translate(3.466766,-59.864168)"
        xml:space="preserve"><tspan
          x="42.898842"
-         y="992.68933"
-         id="tspan5481"><tspan
-           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'"
-           id="tspan5479">Work Experience</tspan></tspan></text><g
+         y="992.68933"><tspan
+           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'">Work Experience</tspan></tspan></text><g
        id="g1010"
        transform="matrix(1,0,0,0.99939232,64.588046,1.0356544)"
        style="stroke-width:1.00005;stroke-miterlimit:4;stroke-dasharray:none"><path
@@ -284,10 +280,8 @@
        transform="translate(64.588046,-4.3334227)"
        xml:space="preserve"><tspan
          x="1806.2852"
-         y="384.52304"
-         id="tspan5485"><tspan
-           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'"
-           id="tspan5483">Personal Info</tspan></tspan></text><text
+         y="384.52304"><tspan
+           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'">Personal Info</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:34.4489px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
        x="1650.4067"
@@ -404,10 +398,8 @@
        transform="translate(64.588046,-59.864168)"
        xml:space="preserve"><tspan
          x="1810.9177"
-         y="992.68933"
-         id="tspan5489"><tspan
-           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'"
-           id="tspan5487">Skills</tspan></tspan></text><text
+         y="992.68933"><tspan
+           style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold'">Skills</tspan></tspan></text><text
        style="font-variant:normal;font-weight:bold;font-size:34.4489px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic-Bold;writing-mode:lr-tb;white-space:pre;inline-size:399.243;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text882"
        x="1812.6809"
@@ -415,8 +407,7 @@
        transform="translate(64.588046,-103.41122)"
        xml:space="preserve"><tspan
          x="1812.6809"
-         y="1084.9987"
-         id="tspan5491">Development</tspan></text><text
+         y="1084.9987"><tspan>Development</tspan></tspan></text><text
        style="font-variant:normal;font-weight:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;white-space:pre;inline-size:728.222;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text888"
        x="1850.7155"
@@ -424,40 +415,31 @@
        transform="translate(64.588046,-103.41122)"
        xml:space="preserve"><tspan
          x="1850.7155"
-         y="1128.3691"
-         id="tspan5493">HTML
-</tspan><tspan
+         y="1128.3691"><tspan>HTML
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1171.4295"
-         id="tspan5495">CSS
-</tspan><tspan
+         y="1171.4295"><tspan>CSS
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1214.4899"
-         id="tspan5497">Javascript / jQuery
-</tspan><tspan
+         y="1214.4899"><tspan>Javascript / jQuery
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1257.5504"
-         id="tspan5499">Vue.js / React.js
-</tspan><tspan
+         y="1257.5504"><tspan>Vue.js / React.js
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1300.6108"
-         id="tspan5501">Bootstrap
-</tspan><tspan
+         y="1300.6108"><tspan>Bootstrap
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1343.6712"
-         id="tspan5503">ASP.NET
-</tspan><tspan
+         y="1343.6712"><tspan>ASP.NET
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1386.7316"
-         id="tspan5505">C#
-</tspan><tspan
+         y="1386.7316"><tspan>C#
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1429.7921"
-         id="tspan5507">Java
-</tspan><tspan
+         y="1429.7921"><tspan>Java
+</tspan></tspan><tspan
          x="1850.7155"
-         y="1472.8525"
-         id="tspan5509">SQL</tspan></text><g
+         y="1472.8525"><tspan>SQL</tspan></tspan></text><g
        id="g218766"
        transform="translate(0,-2.6438018e-5)"><text
          style="font-variant:normal;font-weight:bold;font-size:40.6511px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
@@ -475,8 +457,7 @@
          xml:space="preserve"
          transform="translate(0,-92.335954)"><tspan
            x="36.091324"
-           y="1145.7887"
-           id="tspan5511">@Yellow Corp.</tspan></text><text
+           y="1145.7887"><tspan>@Yellow Corp.</tspan></tspan></text><text
          style="font-variant:normal;font-weight:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;white-space:pre;inline-size:1668.81;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="text1112"
          x="36.094845"
@@ -484,18 +465,14 @@
          xml:space="preserve"
          transform="translate(0,-36.371933)"><tspan
            x="36.094845"
-           y="1130.679"
-           id="tspan5513">Modernization Team
-</tspan><tspan
+           y="1130.679"><tspan>Modernization Team
+</tspan></tspan><tspan
            x="36.094845"
-           y="1173.7393"
-           id="tspan5515">    Worked in an Agile team to rewrite the entire mainframe from Model 204 to Java &amp; SQL.
-</tspan><tspan
+           y="1173.7393"><tspan>    Worked in an Agile team to rewrite the entire mainframe from Model 204 to Java &amp; SQL.
+</tspan></tspan><tspan
            x="36.094845"
-           y="1216.7998"
-           id="tspan5519"><tspan
-             dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00011444092"
-             id="tspan5517">    Improved runtime of report generators by 88% by converting the legacy process to Spring Batch.
+           y="1216.7998"><tspan
+             dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00011444092">    Improved runtime of report generators by 88% by converting the legacy process to Spring Batch.
 </tspan></tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:34.4483px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.75"
@@ -564,8 +541,7 @@
          xml:space="preserve"
          transform="translate(0,532.8783)"><tspan
            x="38.305172"
-           y="1502.0912"
-           id="tspan5521">Software Developer Intern</tspan></text><text
+           y="1502.0912"><tspan>Software Developer Intern</tspan></tspan></text><text
          style="font-variant:normal;font-weight:bold;font-size:34.4489px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic-Bold;writing-mode:lr-tb;white-space:pre;inline-size:871.265;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
          id="text1032-0"
          x="36.091301"
@@ -573,8 +549,7 @@
          xml:space="preserve"
          transform="translate(0,532.8783)"><tspan
            x="36.091301"
-           y="1557.2876"
-           id="tspan5523">@Northwest Missouri State University</tspan></text><text
+           y="1557.2876"><tspan>@Northwest Missouri State University</tspan></tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:34.9998px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.749996"
          x="36.094845"
@@ -602,10 +577,8 @@
          id="text22849-7"
          transform="translate(23.714327,532.8783)"><tspan
            x="1395.1232"
-           y="1496.9684"
-           id="tspan5527"><tspan
-             style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic'"
-             id="tspan5525">May 2019 - August 2019</tspan></tspan></text></g><g
+           y="1496.9684"><tspan
+             style="font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic'">May 2019 - August 2019</tspan></tspan></text></g><g
        id="g218747"
        transform="translate(0,-16.440498)"><text
          xml:space="preserve"
@@ -648,8 +621,7 @@
          xml:space="preserve"
          transform="translate(0,-112.5178)"><tspan
            x="36.091301"
-           y="1557.2876"
-           id="tspan5529">@Northwest Missouri State University</tspan></text><text
+           y="1557.2876"><tspan>@Northwest Missouri State University</tspan></tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:34.4484px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.861209"
          x="1417.7776"
@@ -747,8 +719,7 @@
        transform="translate(349.13024,28.268259)"
        xml:space="preserve"><tspan
          x="-307.45816"
-         y="2334.4802"
-         id="tspan5531">Open-Source Projects</tspan></text><text
+         y="2334.4802"><tspan>Open-Source Projects</tspan></tspan></text><text
        style="font-variant:normal;font-weight:bold;font-size:40.6512px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text962-8"
        x="41.203152"
@@ -780,8 +751,7 @@
        transform="translate(-4.028728,-391.42893)"
        xml:space="preserve"><tspan
          x="43.802757"
-         y="2819.4409"
-         id="tspan5533">Cat Eyes </tspan></text><text
+         y="2819.4409"><tspan>Cat Eyes </tspan></tspan></text><text
        style="font-variant:normal;font-weight:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;white-space:pre;inline-size:1655.36;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text968-6-3"
        x="60.505421"
@@ -789,15 +759,12 @@
        transform="translate(21.883962,-319.53345)"
        xml:space="preserve"><tspan
          x="60.505421"
-         y="3082.3623"
-         id="tspan5535">My personal website which showcases my front-end abilities and displays my professional portfolio.
-</tspan><tspan
+         y="3082.3623"><tspan>My personal website which showcases my front-end abilities and displays my professional portfolio.
+</tspan></tspan><tspan
          x="60.505421"
-         y="3125.4227"
-         id="tspan5537">Heavily focused on accessibility, the site includes keyboard navigation / screen-reading </tspan><tspan
+         y="3125.4227"><tspan>Heavily focused on accessibility, the site includes keyboard navigation / screen-reading </tspan></tspan><tspan
          x="60.505421"
-         y="3168.483"
-         id="tspan5539">compatibility and a high-contrast mode. It's fully WCAG compliant.</tspan></text><text
+         y="3168.483"><tspan>compatibility and a high-contrast mode. It's fully WCAG compliant.</tspan></tspan></text><text
        style="font-variant:normal;font-weight:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;white-space:pre;inline-size:1584.09;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text968-6-0"
        x="60.505421"
@@ -805,8 +772,7 @@
        transform="translate(21.090013,-440.57859)"
        xml:space="preserve"><tspan
          x="60.505421"
-         y="3082.3623"
-         id="tspan5541">A React.js website that takes in user inputs to retrieve movies from a database via REST API.</tspan></text><text
+         y="3082.3623"><tspan>A React.js website that takes in user inputs to retrieve movies from a database via REST API.</tspan></tspan></text><text
        style="font-variant:normal;font-weight:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;white-space:pre;inline-size:1494.6;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text968-6"
        x="60.505421"
@@ -814,14 +780,11 @@
        transform="translate(22.538987,-111.07747)"
        xml:space="preserve"><tspan
          x="60.505421"
-         y="3082.3623"
-         id="tspan5545"><tspan
-           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00011444092"
-           id="tspan5543">A playable in-browser recreation of Tetris using Javascript, HTML, and CSS.
+         y="3082.3623"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.00011444092">A playable in-browser recreation of Tetris using Javascript, HTML, and CSS.
 </tspan></tspan><tspan
          x="60.505421"
-         y="3125.4227"
-         id="tspan5547">Includes a secure database for storing &amp; retrieving players' scores using NodeJS.</tspan></text><text
+         y="3125.4227"><tspan>Includes a secure database for storing &amp; retrieving players' scores using NodeJS.</tspan></tspan></text><text
        style="font-variant:normal;font-weight:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;white-space:pre;inline-size:1474.32;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text1004-0"
        x="60.505421"
@@ -829,11 +792,9 @@
        transform="matrix(1,0,0,1.0000052,22.538987,-265.3787)"
        xml:space="preserve"><tspan
          x="60.505421"
-         y="2742.2234"
-         id="tspan5549">An installable modification written in Java for the videogame, Minecraft, to improve </tspan><tspan
+         y="2742.2234"><tspan>An installable modification written in Java for the videogame, Minecraft, to improve </tspan></tspan><tspan
          x="60.505421"
-         y="2785.2838"
-         id="tspan5551">visual accessibility. Over 25,000 downloads online.</tspan></text><text
+         y="2785.2838"><tspan>visual accessibility. Over 30,000 downloads online.</tspan></tspan></text><text
        style="font-variant:normal;font-weight:bold;font-size:34.4489px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic-Bold;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="text908"
        x="1876.4482"
@@ -851,22 +812,22 @@
          id="tspan252608"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.75"
          x="1915.2356"
-         y="1480.6444">Git / Github / GitLab</tspan><tspan
+         y="1480.6444">Github / GitLab / Git</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.75"
          x="1915.2356"
          y="1524.5009"
-         id="tspan19382">Jira / Confluence</tspan><tspan
+         id="tspan252614">Zenhub / Jira</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.75"
          x="1915.2356"
          y="1568.3573"
-         id="tspan252614">Figma</tspan><tspan
+         id="tspan209">Figma</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.75"
          x="1915.2356"
          y="1612.2137"
-         id="tspan168911">Visual Studio / VS Code</tspan><tspan
+         id="tspan168911">VS Code / Visual Studio</tspan><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.75"
          x="1915.2356"
@@ -875,5 +836,5 @@
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.4483px;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.75"
          x="1915.2356"
-         y="1699.9266"
-         id="tspan168907">MySQL Workbench</tspan></text></g></svg>
+         y="1699.1305"
+         id="tspan168907" /></text></g></svg>

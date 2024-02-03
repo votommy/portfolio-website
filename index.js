@@ -58,85 +58,35 @@ $(document).ready(function() { //jQuery
     
 }); //End jQuery
 
-function checkTheme() {
-    const darkSheet = document.styleSheets[1];
-    darkSheet.disabled = true;
-    
-    const highContrastSheet = document.styleSheets[2];
-    highContrastSheet.disabled = true;
-}
-function lightModeOn() {
-    const darkSheet = document.styleSheets[1];
-    darkSheet.disabled = true;
-    
-    const highContrastSheet = document.styleSheets[2];
-    highContrastSheet.disabled = true;
-}
-function darkModeOn() {
-    const darkSheet = document.styleSheets[1];
-    darkSheet.disabled = false;
-    
-    const highContrastSheet = document.styleSheets[2];
-    highContrastSheet.disabled = true;
-}
-function highContrastModeOn() {
-    const darkSheet = document.styleSheets[1];
-    darkSheet.disabled = true;
-    
-    const highContrastSheet = document.styleSheets[2];
-    highContrastSheet.disabled = false;
+function setTheme(theme) {
+    switch (theme) {
+        case 'dark':
+            document.styleSheets[1].disabled = false;
+            document.styleSheets[2].disabled = true;
+            break;
+        case 'highContrast':
+            document.styleSheets[1].disabled = true;
+            document.styleSheets[2].disabled = false;
+            break;
+        default:
+            document.styleSheets[1].disabled = true;
+            document.styleSheets[2].disabled = true;
+    }
 }
 
-function esriReveal() {
-    const block = document.querySelector("#esriReveal");
-    const button = document.querySelector("#esriRevealBtn");
+function openAccordion(name) {
+    const block = document.querySelector(`#${name}Reveal`);
+    const button = document.querySelector(`#${name}RevealBtn`);
     
     if (block.style.display === "none" || block.style.display === "") {
         block.style.display = "block";
         button.innerHTML = "&minus;";
+        button.title = "Show less";
     }
     else {
         block.style.display = "none";
         button.innerHTML = "&plus;";
-    }
-}
-function yellowReveal() {
-    const block = document.querySelector("#yellowReveal");
-    const button = document.querySelector("#yellowRevealBtn");
-    
-    if (block.style.display === "none" || block.style.display === "") {
-        block.style.display = "block";
-        button.innerHTML = "&minus;";
-    }
-    else {
-        block.style.display = "none";
-        button.innerHTML = "&plus;";
-    }
-}
-function nw2Reveal() {
-    const block = document.querySelector("#nw2Reveal");
-    const button = document.querySelector("#nw2RevealBtn");
-    
-    if (block.style.display === "none" || block.style.display === "") {
-        block.style.display = "block";
-        button.innerHTML = "&minus;";
-    }
-    else {
-        block.style.display = "none";
-        button.innerHTML = "&plus;";
-    }
-}
-function nw1Reveal() {
-    const block = document.querySelector("#nw1Reveal");
-    const button = document.querySelector("#nw1RevealBtn");
-    
-    if (block.style.display === "none" || block.style.display === "") {
-        block.style.display = "block";
-        button.innerHTML = "&minus;";
-    }
-    else {
-        block.style.display = "none";
-        button.innerHTML = "&plus;";
+        button.title = "Show more";
     }
 }
 

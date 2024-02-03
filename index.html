@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/highContrastMode.css">
         <link rel="stylesheet" href="css/bubbles.css">
     </head>
-    <body onload="checkTheme()">
+    <body onload="setTheme()">
         
         <ul class="skipLinks">
             <li><a href="#hamburger">Skip to navigation</a></li>
@@ -49,10 +49,10 @@
                         <div id="settingsBackdrop" class="exitSettingsBtn"></div> <!--Click off the settings menu to exit-->
                         <div class="blurBox" id="settings">
                             <span class="h1" role="heading"><span style="font-weight: bold">&#9881;</span> Accessibility Settings:</span><br><br>
-                            <button class="exitSettingsBtn" aria-label="close settings">&#10006;</button>
-                            <input id="lightModeBtn" type="button" value="&#9788; Light Mode" onclick="lightModeOn()"><br>
-                            <input id="darkModeBtn" type="button" style="padding-left: .5rem;" value="&#9789; Dark Mode" onclick="darkModeOn()"><br>
-                            <input id="highContrastModeBtn" type="button" value="&#10061; High Contrast Mode" onclick="highContrastModeOn()">
+                            <button class="exitSettingsBtn" aria-label="close settings" title="Close settings panel">&#10006;</button>
+                            <input id="lightModeBtn" type="button" value="&#9788; Light Mode" onclick="setTheme('light')"><br>
+                            <input id="darkModeBtn" type="button" style="padding-left: .5rem;" value="&#9789; Dark Mode" onclick="setTheme('dark')"><br>
+                            <input id="highContrastModeBtn" type="button" value="&#10061; High Contrast Mode" onclick="setTheme('highContrast')">
                         </div>
                     </section>
                     
@@ -111,7 +111,7 @@
                                     <span class="pills pill-black">GitHub</span>
                                     <br><br>
                                 </span>
-                                <button class="revealBtn" id="esriRevealBtn" onclick="esriReveal()" aria-label="Show more Software Development Engineer 2 at Esri">&plus;</button>
+                                <button class="revealBtn" id="esriRevealBtn" onclick="openAccordion('esri')" aria-label="Show more Software Development Engineer 2 at Esri" title="Show more">&plus;</button>
                             </div>
                             <hr><br>
                             <div id="yellowBox">
@@ -131,7 +131,7 @@
                                     <span class="pills pill-orange">GitLab</span>
                                     <br><br>
                                 </span>
-                                <button class="revealBtn" id="yellowRevealBtn" onclick="yellowReveal()" aria-label="Show more Developer 1 at Yellow">&plus;</button>
+                                <button class="revealBtn" id="yellowRevealBtn" onclick="openAccordion('yellow')" aria-label="Show more Developer 1 at Yellow" title="Show more">&plus;</button>
                             </div>
                             <hr><br>
                             <div id="nw2Box">
@@ -156,7 +156,7 @@
                                     <span class="pills pill-orange">GitLab</span>
                                     <br><br>
                                 </span>
-                                <button class="revealBtn" id="nw2RevealBtn" onclick="nw2Reveal()" aria-label="Show more Software Developer at Northwest">&plus;</button>
+                                <button class="revealBtn" id="nw2RevealBtn" onclick="openAccordion('nw2')" aria-label="Show more Software Developer at Northwest" title="Show more">&plus;</button>
                             </div>
                             <hr><br>
                             <div id="nw1Box">
@@ -181,7 +181,7 @@
                                     <br><span id="reviewAuthor">- Gary Zhao (Supervisor), Computer Software/Programming Specialist</span>
                                     <br><br>
                                 </span>
-                                <button class="revealBtn" id="nw1RevealBtn" onclick="nw1Reveal()" aria-label="Show more Software Developer Intern at Northwest">&plus;</button>
+                                <button class="revealBtn" id="nw1RevealBtn" onclick="openAccordion('nw1')" aria-label="Show more Software Developer Intern at Northwest" title="Show more">&plus;</button>
                             </div>
                         </div>
                     </section>
@@ -369,9 +369,9 @@
                         <div class="blurBox">
                             <span class="h1" role="heading">Links:</span><br><br>
                             <div id="linkBox">
-                                <a href="mailto:email@votommy.com"><img alt="email icon" src="assets/email.png" id="emailImg"></a>
-                                <a href="https://linkedin.com/in/votommy" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile page - opens in new tab"><img alt="linkedin icon" src="assets/linkedin.png" id="linkedinImg"></a>
-                                <a href="https://github.com/votommy" target="_blank" rel="noopener noreferrer" aria-label="Tommy's Github page - opens in new tab"><img alt="github icon" src="assets/github.png" id="githubImg"></a>
+                                <a href="mailto:email@votommy.com"><img alt="email icon" src="assets/email.png" id="emailImg" title="Email me"></a>
+                                <a href="https://linkedin.com/in/votommy" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile page - opens in new tab"><img alt="linkedin icon" src="assets/linkedin.png" id="linkedinImg" title="Visit my LinkedIn"></a>
+                                <a href="https://github.com/votommy" target="_blank" rel="noopener noreferrer" aria-label="Tommy's Github page - opens in new tab"><img alt="github icon" src="assets/github.png" id="githubImg" title="Check out my Github"></a>
                             </div>
                         </div>
                     </section>

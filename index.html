@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <title>Tommy Vo | Software Engineer</title>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="icon" href="assets/logo.svg" type="image/svg"> <!--favicon-->
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/darkMode.css">
@@ -19,8 +18,8 @@
 
         <div class="navbar">
             <h1 id="title">TOMMY VO</h1>
-            <div class="dropdown">                
-                <div id="hamburger" class="dropbtn" tabindex="0" role="button" aria-label="Open navigation menu">
+            <div class="dropdown" onmouseover="hamburgerToggle('mouseover')" onmouseout="hamburgerToggle('mouseout')">                
+                <div id="hamburger" class="dropbtn" tabindex="0" role="button" aria-label="Open navigation menu" onfocusin="hamburgerToggle('focusin')" onfocusout="hamburgerToggle('focusout')">
                   <span id="top"></span>
                   <span id="middle1"></span>
                   <span id="middle2"></span>
@@ -28,12 +27,12 @@
                 </div>
                 
                 <div class="dropdown-content">
-                    <a class="navAboutMe" href="#aboutMe">About Me</a><br>
-                    <a class="navExperience" href="#workXP">Experience</a><br>
-                    <a class="navProjects" href="#projects">Projects</a><br>
-                    <a class="navAwards" href="#awards">Awards</a><br>
-                    <a class="navContact" href="#contact">Contact Me</a><br>
-                    <a class="navSettings" href="#settings"><span style="font-weight: bold">&#9881;</span> Settings</a><br>
+                    <a class="navAboutMe" href="#aboutMe" onclick="smoothScroll('aboutMe')">About Me</a><br>
+                    <a class="navExperience" href="#workXP" onclick="smoothScroll('workXP')">Experience</a><br>
+                    <a class="navProjects" href="#projects" onclick="smoothScroll('projects')">Projects</a><br>
+                    <a class="navAwards" href="#awards" onclick="smoothScroll('awards')">Awards</a><br>
+                    <a class="navContact" href="#contact" onclick="smoothScroll('contact')">Contact Me</a><br>
+                    <a class="navSettings" href="#settings" onclick="toggleSettings(true)"><span style="font-weight: bold">&#9881;</span> Settings</a><br>
                 </div>
             </div> 
         </div>
@@ -46,10 +45,10 @@
             <article>
                 <div class="container">
                     <section>
-                        <div id="settingsBackdrop" class="exitSettingsBtn"></div> <!--Click off the settings menu to exit-->
+                        <div id="settingsBackdrop" class="exitSettingsBtn" onclick="toggleSettings(false)"></div> <!--Click off the settings menu to exit-->
                         <div class="blurBox" id="settings">
                             <span class="h1" role="heading"><span style="font-weight: bold">&#9881;</span> Accessibility Settings:</span><br><br>
-                            <button class="exitSettingsBtn" aria-label="close settings" title="Close settings panel">&#10006;</button>
+                            <button class="exitSettingsBtn" aria-label="close settings" title="Close settings panel" onclick="toggleSettings(false)">&#10006;</button>
                             <input id="lightModeBtn" type="button" value="&#9788; Light Mode" onclick="setTheme('light')"><br>
                             <input id="darkModeBtn" type="button" style="padding-left: .5rem;" value="&#9789; Dark Mode" onclick="setTheme('dark')"><br>
                             <input id="highContrastModeBtn" type="button" value="&#10061; High Contrast Mode" onclick="setTheme('highContrast')">
@@ -303,7 +302,6 @@
                                 <span class="pills pill-red">HTML</span>
                                 <span class="pills pill-purple">CSS</span>
                                 <span class="pills pill-yellow">Javascript</span>
-                                <span class="pills pill-blue">jQuery</span>
                                 <span class="pills pill-black">Github</span>
                                 
                                 <hr>

@@ -1,63 +1,3 @@
-$(document).ready(function() { //jQuery
-    $("#hamburger").focusin(function() {
-        $(".dropdown-content").css("display", "block");
-        $('#hamburger').addClass('x');
-    });
-    $("#hamburger").focusout(function() {
-        $('#hamburger').removeClass('x');
-    });
-    $(".dropdown").mouseover(function() {
-        $(".dropdown-content").css("display", "block");
-        $('#hamburger').addClass('x');
-    });
-    $(".dropdown").mouseout(function() {
-        $(".dropdown-content").css("display", "none");
-        $('#hamburger').removeClass('x');
-    });
-    
-    $(".navAboutMe").click(function() { //scrolls to About Me on click. Animate smooth scroll
-        $(".dropdown-content").css("display", "none");
-        $('html, body').animate({
-            scrollTop: $("#aboutMe").offset().top
-            }, 900);
-        history.pushState("", document.title, window.location.pathname);
-    });
-    $(".navExperience").click(function() { //scrolls to Work Experience on click. Animate smooth scroll
-        $(".dropdown-content").css("display", "none");
-        $('html, body').animate({
-            scrollTop: $("#workXP").offset().top
-            }, 900);
-    });
-    $(".navProjects").click(function() { //scrolls to Awards on click. Animate smooth scroll
-        $(".dropdown-content").css("display", "none");
-        $('html, body').animate({
-            scrollTop: $("#projects").offset().top
-            }, 900);
-    });
-    $(".navAwards").click(function() { //scrolls to Awards on click. Animate smooth scroll
-        $(".dropdown-content").css("display", "none");
-        $('html, body').animate({
-            scrollTop: $("#awards").offset().top
-            }, 900);
-    });
-    $(".navContact").click(function() { //scrolls to Awards on click. Animate smooth scroll
-        $(".dropdown-content").css("display", "none");
-        $('html, body').animate({
-            scrollTop: $("#contact").offset().top
-            }, 900);
-    });
-    $(".navSettings").click(function() {
-        $(".dropdown-content").css("display", "none");
-        $("#settings").css("display", "block");
-        $("#settingsBackdrop").css("display", "block");
-    });
-    $(".exitSettingsBtn").click(function() {
-        $("#settings").css("display", "none");
-        $("#settingsBackdrop").css("display", "none");
-    });
-    
-}); //End jQuery
-
 function setTheme(theme) {
     switch (theme) {
         case 'dark':
@@ -88,6 +28,42 @@ function openAccordion(name) {
         button.innerHTML = "&plus;";
         button.title = "Show more";
     }
+}
+
+function hamburgerToggle(action) {
+    switch (action) {
+        case 'focusin':
+        case 'mouseover':
+            document.querySelector(".dropdown-content").style.display = "block";
+            document.querySelector('#hamburger').classList.add('x');
+            break;
+        case 'focusout':
+            document.querySelector('#hamburger').classList.remove('x');
+            break;
+        case 'mouseout':
+            document.querySelector(".dropdown-content").style.display = "none";
+            document.querySelector('#hamburger').classList.remove('x');
+            break;
+    }
+}
+
+function toggleSettings(toggleOn) {
+    if (toggleOn) {
+        document.querySelector(".dropdown-content").style.display = "none";
+        document.querySelector("#settings").style.display = "block";
+        document.querySelector("#settingsBackdrop").style.display = "block";
+    }
+    else {
+        document.querySelector("#settings").style.display = "none";
+        document.querySelector("#settingsBackdrop").style.display = "none";
+    }
+}
+
+function smoothScroll(anchor) {
+    document.querySelector(".dropdown-content").style.display = 'none';
+
+    const top = document.querySelector(`#${anchor}`).getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({top: top, behavior: "smooth"});
 }
 
 let year = new Date().getFullYear(); //Automatically update copyright year
